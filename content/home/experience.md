@@ -18,27 +18,48 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Senior Analyst - Partnership Analytics"
+  company = "Credit Karma"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  location = "San Francisco, California"
+  date_start = "2019-04-01"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Use data and analytics to answer strategic business questions and provide recommendations to leadership
+  * Create and deliver presentations to external business partners around platform performance and improvement opportunities
+  * Build dashboards (and required data pipelines) to track KPIs over time 
+
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Data Scientist"
+  company = "Visa"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Foster City, California"
+  date_start = "2018-02-01"
+  date_end = "2019-04-01"
+  description = ""
 
+[[experience]]
+  title = "D&A Predictive Modeler"
+  company = "KPMG - Lighthouse"
+  company_url = ""
+  location = "Santa Clara, California"
+  date_start = "2017-06-01"
+  date_end = "2018-02-01"
+  description = ""
+
+
+[[experience]]
+  title = "Data Scientist"
+  company = "Elder Research"
+  company_url = ""
+  location = "Raleigh, North Carolina"
+  date_start = "2016-01-01"
+  date_end = "2016-06-01"
+  description = ""
+
+ 
 +++

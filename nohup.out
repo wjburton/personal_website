@@ -1,0 +1,2407 @@
+Building sites … ERROR 2020/08/16 10:31:04 [en] REF_NOT_FOUND: Ref "/publication/_index.md": "C:\Users\wjbur\Documents\website\academic_website\content\home\publications.md:1:1": page not found
+Built in 309 ms
+Error: Error building site: logged 1 error(s)
+Building sites … 
+                   | EN  
+-------------------+-----
+  Pages            | 38  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  5  
+  Processed images | 13  
+  Aliases          |  6  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 311 ms
+Watching for changes in C:\Users\wjbur\Documents\website\academic_website\{assets,content,data,static,themes}
+Watching for config changes in C:\Users\wjbur\Documents\website\academic_website\config.toml, C:\Users\wjbur\Documents\website\academic_website\config\_default
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+      1 [sig] nohup 27020! sigpacket::process: Suppressing signal 18 to win32 process (pid 16892)
+ 924324 [sig] nohup 27020! sigpacket::process: Suppressing signal 18 to win32 process (pid 16892)
+Building sites … 
+                   | EN  
+-------------------+-----
+  Pages            | 38  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  5  
+  Processed images | 14  
+  Aliases          |  6  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 323 ms
+Watching for changes in C:\Users\wjbur\Documents\website\academic_website\{assets,content,data,static,themes}
+Watching for config changes in C:\Users\wjbur\Documents\website\academic_website\config.toml, C:\Users\wjbur\Documents\website\academic_website\config\_default
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2020-08-16 10:36:08.045 -0700
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:36:11.048 -0700
+Total in 17 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:36:17.044 -0700
+Total in 17 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:36:20.054 -0700
+Rebuilt in 412 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:36:54.051 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\demo.md": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\featured.md": WRITE
+ERROR 2020/08/16 10:36:54 Homepage not found at /home/index.md!
+ERROR 2020/08/16 10:36:54 Add the `/home/index.md` homepage file to each language's content folder. For example, your site should have a `content/home/` folder containing `index.md` and your homepage sections, or for multi-language sites, `content/en/home/` and `content/zh/home/` etc. Refer to the 'Build Your Homepage' and 'Language' documentation at https://sourcethemes.com/academic/docs/ and the example homepage at https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/home/index.md .
+Total in 27 ms
+ERROR 2020/08/16 10:36:54 Rebuild failed:
+
+ERROR 2020/08/16 10:36:54 Logged 2 error(s)
+
+Change detected, rebuilding site.
+2020-08-16 10:37:07.056 -0700
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:37:12.046 -0700
+Total in 17 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:37:20.044 -0700
+Total in 18 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:37:26.045 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\featured.md": WRITE
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:37:46.048 -0700
+Total in 19 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:37:53.044 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\demo.md": WRITE
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:38:04.044 -0700
+Total in 19 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:38:05.056 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\posts.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:38:46.058 -0700
+Rebuilt in 462 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:39:39.045 -0700
+Total in 19 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:40:10.045 -0700
+Total in 21 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:40:11.044 -0700
+Total in 20 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:40:14.045 -0700
+Total in 18 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:40:34.054 -0700
+Total in 40 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:40:42.044 -0700
+Total in 19 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:40:58.044 -0700
+Total in 20 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:41:06.044 -0700
+Total in 18 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:41:14.044 -0700
+Total in 18 ms
+
+Change of Static files detected, rebuilding site.
+2020-08-16 10:41:31.051 -0700
+Syncing media to C:\Users\wjbur\Documents\website\academic_website\
+
+Change of config file detected, rebuilding site.
+2020-08-16 10:46:14.044 -0700
+Rebuilt in 432 ms
+
+Change of config file detected, rebuilding site.
+2020-08-16 10:47:32.044 -0700
+Rebuilt in 410 ms
+
+Change of config file detected, rebuilding site.
+2020-08-16 10:47:37.046 -0700
+Rebuilt in 433 ms
+
+Change of config file detected, rebuilding site.
+2020-08-16 10:47:49.058 -0700
+Rebuilt in 474 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:49:51.045 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:50:32.045 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\tags.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:50:40.044 -0700
+Total in 21 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:50:45.044 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\publications.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:50:52.045 -0700
+Total in 19 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:50:59.044 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\featured.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:51:54.052 -0700
+Total in 21 ms
+
+Change detected, rebuilding site.
+2020-08-16 10:59:47.044 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\_index.md": WRITE
+Total in 7 ms
+ERROR 2020/08/16 10:59:47 Rebuild failed:
+
+ERROR 2020/08/16 10:59:47 "C:\Users\wjbur\Documents\website\academic_website\content\authors\admin\_index.md:42:1": failed to unmarshal YAML: yaml: line 41: did not find expected key
+
+Change detected, rebuilding site.
+2020-08-16 11:00:09.044 -0700
+Total in 0 ms
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal 0xc0000005 code=0x0 addr=0x20 pc=0x10cc57d]
+
+goroutine 245 [running]:
+github.com/gohugoio/hugo/hugolib.(*BuildCfg).shouldRender(0xc003e9f4c0, 0x0, 0x10cc6e9)
+	/root/project/hugo/hugolib/hugo_sites.go:675 +0x2d
+github.com/gohugoio/hugo/hugolib.(*Site).renderPages.func1(0xc0046ee430, 0xf, 0xc002259620, 0xc003e9f4c0)
+	/root/project/hugo/hugolib/site_render.go:80 +0x54
+github.com/gohugoio/hugo/hugolib.contentTrees.Walk.func1(0xc0046ee430, 0xf, 0x1ceebc0, 0xc002259620, 0xc00494a7b0)
+	/root/project/hugo/hugolib/content_map.go:870 +0x5b
+github.com/armon/go-radix.recursiveWalk(0xc00480bd70, 0xc001d9b440, 0x1ceebc0)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:519 +0xf7
+github.com/armon/go-radix.recursiveWalk(0xc004966a20, 0xc001d9b440, 0x1ceebc0)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0x85
+github.com/armon/go-radix.recursiveWalk(0xc004966a80, 0xc001d9b440, 0x0)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0x85
+github.com/armon/go-radix.recursiveWalk(0xc003b7f980, 0xc001d9b440, 0xc001d9b400)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0x85
+github.com/armon/go-radix.(*Tree).Walk(...)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:447
+github.com/gohugoio/hugo/hugolib.contentTrees.Walk(0xc003c8f300, 0x3, 0x3, 0xc001d9b4d8)
+	/root/project/hugo/hugolib/content_map.go:868 +0x6e
+github.com/gohugoio/hugo/hugolib.(*Site).renderPages(0xc00085eb40, 0xc00128bfe0, 0x0, 0xc001d9b400)
+	/root/project/hugo/hugolib/site_render.go:79 +0x1ff
+github.com/gohugoio/hugo/hugolib.(*Site).render(0xc00085eb40, 0xc00128bfe0, 0x0, 0x0)
+	/root/project/hugo/hugolib/site.go:1203 +0x5b
+github.com/gohugoio/hugo/hugolib.(*HugoSites).render(0xc0042342c0, 0xc003e9f4c0, 0x3355110, 0x1)
+	/root/project/hugo/hugolib/hugo_sites_build.go:325 +0x413
+github.com/gohugoio/hugo/hugolib.(*HugoSites).Build.func4()
+	/root/project/hugo/hugolib/hugo_sites_build.go:149 +0x43
+runtime/trace.WithRegion(0x2591040, 0xc0064345d0, 0x1fc40b1, 0x6, 0xc001d93928)
+	/usr/local/go/src/runtime/trace/annotation.go:137 +0x105
+github.com/gohugoio/hugo/hugolib.(*HugoSites).Build(0xc0042342c0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x100, 0xc0064345a0, 0x0, 0xc00268a180, ...)
+	/root/project/hugo/hugolib/hugo_sites_build.go:151 +0x7bc
+github.com/gohugoio/hugo/commands.(*commandeer).rebuildSites(0xc00093ca90, 0xc00268a180, 0x3, 0x4, 0x0, 0x0)
+	/root/project/hugo/commands/hugo.go:774 +0x40e
+github.com/gohugoio/hugo/commands.(*commandeer).handleEvents(0xc00093ca90, 0xc002c8b620, 0xc002b34558, 0xc00395c000, 0x8, 0x8, 0xc002c83aa0)
+	/root/project/hugo/commands/hugo.go:1139 +0x76b
+github.com/gohugoio/hugo/commands.(*commandeer).newWatcher.func1(0xc002c8b620, 0xc00093ca90, 0xc002b34558, 0xc002c83aa0)
+	/root/project/hugo/commands/hugo.go:881 +0x1df
+created by github.com/gohugoio/hugo/commands.(*commandeer).newWatcher
+	/root/project/hugo/commands/hugo.go:877 +0x294
+Building sites … 
+                   | EN  
+-------------------+-----
+  Pages            | 38  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  5  
+  Processed images | 13  
+  Aliases          |  6  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 308 ms
+Watching for changes in C:\Users\wjbur\Documents\website\academic_website\{assets,content,data,static,themes}
+Watching for config changes in C:\Users\wjbur\Documents\website\academic_website\config.toml, C:\Users\wjbur\Documents\website\academic_website\config\_default
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2020-08-16 11:02:48.497 -0700
+Total in 18 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:07:58.497 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\_index.md": WRITE
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:07:59.497 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:08:42.497 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\_index.md": WRITE
+Total in 44 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:13:02.497 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\_index.md": WRITE
+Total in 21 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:13:31.504 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\profile.jpg": WRITE
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:13:46.497 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\avatar.jpg": REMOVE
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:13:52.497 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\profile.jpg": RENAME
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\avatar.jpg": CREATE
+Total in 238 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:14:22.497 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\avatar.jpg": WRITE
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:14:23.497 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\avatar.jpg~RF4aeeafa3.TMP": REMOVE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\avatar.jpg": CREATE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\avatar.jpg.~tmp": RENAME
+Total in 369 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:15:13.498 -0700
+Total in 20 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:15:14.498 -0700
+Total in 22 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:15:20.497 -0700
+Total in 21 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:15:31.497 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\_index.md": WRITE
+Total in 25 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:15:54.497 -0700
+Total in 18 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:36:29.497 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\experience.md": WRITE
+Total in 7 ms
+ERROR 2020/08/16 11:36:29 Rebuild failed:
+
+ERROR 2020/08/16 11:36:29 "C:\Users\wjbur\Documents\website\academic_website\content\home\experience.md:62:1": unmarshal failed: Near line 61 (last key parsed 'experience.description'): unexpected EOF
+
+Change detected, rebuilding site.
+2020-08-16 11:36:38.497 -0700
+Total in 0 ms
+panic: runtime error: index out of range [0] with length 0
+
+goroutine 35 [running]:
+github.com/gohugoio/hugo/hugolib.(*pageState).shiftToOutputFormat(0xc002ce5a10, 0x1102701, 0x0, 0x0, 0x0)
+	/root/project/hugo/hugolib/page.go:927 +0x35e
+github.com/gohugoio/hugo/hugolib.(*pageState).initOutputFormat(...)
+	/root/project/hugo/hugolib/page.go:481
+github.com/gohugoio/hugo/hugolib.(*Site).preparePagesForRender.func1(0xc002ce5a10, 0x0)
+	/root/project/hugo/hugolib/hugo_sites.go:798 +0x50
+github.com/gohugoio/hugo/hugolib.(*pageMap).withEveryBundlePage.func1(0xc000bf9040, 0x1c, 0xc0020f5cb0, 0xc001567400)
+	/root/project/hugo/hugolib/content_map_page.go:691 +0x3e
+github.com/gohugoio/hugo/hugolib.contentTrees.Walk.func1(0xc000bf9040, 0x1c, 0x1ceebc0, 0xc0020f5cb0, 0xc000a87f00)
+	/root/project/hugo/hugolib/content_map.go:870 +0x5b
+github.com/armon/go-radix.recursiveWalk(0xc0020f5ce0, 0xc001567488, 0x1ceeb00)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:519 +0xf7
+github.com/armon/go-radix.recursiveWalk(0xc000d675c0, 0xc001567488, 0x1ceeb00)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0x85
+github.com/armon/go-radix.recursiveWalk(0xc000d674a0, 0xc001567488, 0x251b200)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0x85
+github.com/armon/go-radix.recursiveWalk(0xc00092b470, 0xc001567488, 0x0)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0x85
+github.com/armon/go-radix.(*Tree).Walk(...)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:447
+github.com/gohugoio/hugo/hugolib.contentTrees.Walk(0xc000952320, 0x4, 0x4, 0xc0015674c8)
+	/root/project/hugo/hugolib/content_map.go:868 +0x6e
+github.com/gohugoio/hugo/hugolib.(*pageMap).withEveryBundlePage(0xc000956430, 0xc0006df508)
+	/root/project/hugo/hugolib/content_map_page.go:689 +0x74
+github.com/gohugoio/hugo/hugolib.(*Site).preparePagesForRender(0xc0001ecb40, 0xc0002fcd01, 0x0, 0x4, 0xc002020380)
+	/root/project/hugo/hugolib/hugo_sites.go:797 +0x8b
+github.com/gohugoio/hugo/hugolib.(*HugoSites).render(0xc00097b6b0, 0xc002610300, 0x3355110, 0x1)
+	/root/project/hugo/hugolib/hugo_sites_build.go:314 +0x1d6
+github.com/gohugoio/hugo/hugolib.(*HugoSites).Build.func4()
+	/root/project/hugo/hugolib/hugo_sites_build.go:149 +0x43
+runtime/trace.WithRegion(0x2591040, 0xc001866e70, 0x1fc40b1, 0x6, 0xc0006df928)
+	/usr/local/go/src/runtime/trace/annotation.go:137 +0x105
+github.com/gohugoio/hugo/hugolib.(*HugoSites).Build(0xc00097b6b0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x100, 0xc001866e40, 0x0, 0xc001f88c60, ...)
+	/root/project/hugo/hugolib/hugo_sites_build.go:151 +0x7bc
+github.com/gohugoio/hugo/commands.(*commandeer).rebuildSites(0xc000438820, 0xc001f88c60, 0x3, 0x4, 0x0, 0x0)
+	/root/project/hugo/commands/hugo.go:774 +0x40e
+github.com/gohugoio/hugo/commands.(*commandeer).handleEvents(0xc000438820, 0xc003049500, 0xc002ec4978, 0xc000286e40, 0x8, 0x8, 0xc00197c300)
+	/root/project/hugo/commands/hugo.go:1139 +0x76b
+github.com/gohugoio/hugo/commands.(*commandeer).newWatcher.func1(0xc003049500, 0xc000438820, 0xc002ec4978, 0xc00197c300)
+	/root/project/hugo/commands/hugo.go:881 +0x1df
+created by github.com/gohugoio/hugo/commands.(*commandeer).newWatcher
+	/root/project/hugo/commands/hugo.go:877 +0x294
+Building sites … 
+                   | EN  
+-------------------+-----
+  Pages            | 38  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     |  5  
+  Processed images | 14  
+  Aliases          |  6  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 339 ms
+Watching for changes in C:\Users\wjbur\Documents\website\academic_website\{assets,content,data,static,themes}
+Watching for config changes in C:\Users\wjbur\Documents\website\academic_website\config.toml, C:\Users\wjbur\Documents\website\academic_website\config\_default
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2020-08-16 11:38:00.724 -0700
+Total in 22 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:38:04.734 -0700
+Total in 21 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:38:16.723 -0700
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:38:22.722 -0700
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:38:25.722 -0700
+Total in 17 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:38:37.736 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\experience.md": WRITE
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-16 11:53:37.724 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\data_or_not_to_data.md": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\ds_application_vs_creativity.md": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory.md": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\problem_solving.md": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\problem_solving_2b1b.md": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\problem_solving_part2.md": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\problem_solving_part3.md": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\problem1.md": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\quotes.md": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\scratch.md": WRITE
+Total in 60 ms
+ERROR 2020/08/16 11:53:37 Rebuild failed:
+
+ERROR 2020/08/16 11:53:37 "C:\Users\wjbur\Documents\website\academic_website\content\post\quotes.md:1:1": invalid YAML delimiter
+
+Change detected, rebuilding site.
+2020-08-16 11:53:44.723 -0700
+Total in 0 ms
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal 0xc0000005 code=0x0 addr=0x20 pc=0x10cc57d]
+
+goroutine 296 [running]:
+github.com/gohugoio/hugo/hugolib.(*BuildCfg).shouldRender(0xc002990e80, 0x0, 0xc1bf85)
+	/root/project/hugo/hugolib/hugo_sites.go:675 +0x2d
+github.com/gohugoio/hugo/hugolib.(*Site).renderPages.func1(0xc002982a20, 0x16, 0xc00252e030, 0xc002990560)
+	/root/project/hugo/hugolib/site_render.go:80 +0x54
+github.com/gohugoio/hugo/hugolib.contentTrees.Walk.func1(0xc002982a20, 0x16, 0x1ceebc0, 0xc00252e030, 0x2030000)
+	/root/project/hugo/hugolib/content_map.go:870 +0x5b
+github.com/armon/go-radix.recursiveWalk(0xc002a36480, 0xc001a65440, 0x0)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:519 +0xf7
+github.com/armon/go-radix.recursiveWalk(0xc002a36180, 0xc001a65440, 0x9ba0e00)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0x85
+github.com/armon/go-radix.recursiveWalk(0xc002a36060, 0xc001a65440, 0x0)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0x85
+github.com/armon/go-radix.recursiveWalk(0xc00090b2c0, 0xc001a65440, 0xc001a65470)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0x85
+github.com/armon/go-radix.(*Tree).Walk(...)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:447
+github.com/gohugoio/hugo/hugolib.contentTrees.Walk(0xc000926c60, 0x3, 0x3, 0xc001a654d8)
+	/root/project/hugo/hugolib/content_map.go:868 +0x6e
+github.com/gohugoio/hugo/hugolib.(*Site).renderPages(0xc000312d80, 0xc001556720, 0x0, 0xc001a65400)
+	/root/project/hugo/hugolib/site_render.go:79 +0x1ff
+github.com/gohugoio/hugo/hugolib.(*Site).render(0xc000312d80, 0xc001556720, 0x0, 0x0)
+	/root/project/hugo/hugolib/site.go:1203 +0x5b
+github.com/gohugoio/hugo/hugolib.(*HugoSites).render(0xc0003f8630, 0xc002990e80, 0x3355110, 0x1)
+	/root/project/hugo/hugolib/hugo_sites_build.go:325 +0x413
+github.com/gohugoio/hugo/hugolib.(*HugoSites).Build.func4()
+	/root/project/hugo/hugolib/hugo_sites_build.go:149 +0x43
+runtime/trace.WithRegion(0x2591040, 0xc00245c060, 0x1fc40b1, 0x6, 0xc002fd5928)
+	/usr/local/go/src/runtime/trace/annotation.go:137 +0x105
+github.com/gohugoio/hugo/hugolib.(*HugoSites).Build(0xc0003f8630, 0x0, 0x0, 0x0, 0x0, 0x0, 0x100, 0xc00245c030, 0x0, 0xc0030f2900, ...)
+	/root/project/hugo/hugolib/hugo_sites_build.go:151 +0x7bc
+github.com/gohugoio/hugo/commands.(*commandeer).rebuildSites(0xc00065c680, 0xc0030f2900, 0x3, 0x4, 0x0, 0x0)
+	/root/project/hugo/commands/hugo.go:774 +0x40e
+github.com/gohugoio/hugo/commands.(*commandeer).handleEvents(0xc00065c680, 0xc002bb5f40, 0xc002a84580, 0xc0002e6480, 0x8, 0x8, 0xc002918b40)
+	/root/project/hugo/commands/hugo.go:1139 +0x76b
+github.com/gohugoio/hugo/commands.(*commandeer).newWatcher.func1(0xc002bb5f40, 0xc00065c680, 0xc002a84580, 0xc002918b40)
+	/root/project/hugo/commands/hugo.go:881 +0x1df
+created by github.com/gohugoio/hugo/commands.(*commandeer).newWatcher
+	/root/project/hugo/commands/hugo.go:877 +0x294
+Building sites … 
+                   | EN  
+-------------------+-----
+  Pages            | 49  
+  Paginator pages  |  0  
+  Non-page files   |  2  
+  Static files     |  5  
+  Processed images | 29  
+  Aliases          |  8  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 851 ms
+Watching for changes in C:\Users\wjbur\Documents\website\academic_website\{assets,content,data,static,themes}
+Watching for config changes in C:\Users\wjbur\Documents\website\academic_website\config.toml, C:\Users\wjbur\Documents\website\academic_website\config\_default
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+Error: unknown command "sercer" for "hugo"
+
+Did you mean this?
+	server
+
+Run 'hugo --help' for usage.
+Building sites … 
+                   | EN  
+-------------------+-----
+  Pages            | 49  
+  Paginator pages  |  0  
+  Non-page files   |  2  
+  Static files     |  5  
+  Processed images | 17  
+  Aliases          |  8  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 359 ms
+Watching for changes in C:\Users\wjbur\Documents\website\academic_website\{assets,content,data,static,themes}
+Watching for config changes in C:\Users\wjbur\Documents\website\academic_website\config.toml, C:\Users\wjbur\Documents\website\academic_website\config\_default
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2020-08-17 08:22:21.949 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:23:26.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 44 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:23:43.946 -0700
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:23:52.947 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 40 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:24:51.950 -0700
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:25:10.960 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:25:29.950 -0700
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:25:44.952 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:25:45.947 -0700
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:32:00.947 -0700
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:34:14.952 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Huffman Tree.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Huffman_step_1.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Huffman_step_2.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Huffman_step_3.PNG": WRITE
+Total in 41 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:34:26.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Information_non_uniform.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Information_Uniform.png": WRITE
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:34:38.955 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:35:12.949 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 40 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:36:53.949 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Information_Uniform.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Information_Uniform.png~RF4f84db87.TMP": REMOVE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Information_Uniform.png.~tmp": RENAME
+Total in 40 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:36:54.946 -0700
+Total in 42 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:37:08.956 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Information_Uniform.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Information_Uniform.png~RF4f85162f.TMP": REMOVE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Information_Uniform.png.~tmp": RENAME
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:37:09.946 -0700
+Total in 24 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:38:29.951 -0700
+Total in 21 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:38:30.946 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:38:33.947 -0700
+Total in 22 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:38:43.948 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 46 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:39:23.946 -0700
+Total in 22 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:39:24.947 -0700
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:39:26.946 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:40:01.950 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:40:02.949 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:42:45.949 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:42:46.946 -0700
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:43:09.950 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 39 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:43:10.949 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:43:46.950 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:43:47.947 -0700
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:44:12.953 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:44:13.953 -0700
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:50:42.950 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 39 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:50:43.946 -0700
+Total in 41 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:51:24.948 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 48 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:51:25.951 -0700
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:51:56.953 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:51:57.953 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-17 08:54:36.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:02:30.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:02:31.949 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 42 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:02:38.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 45 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:02:39.949 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:02:54.949 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 40 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:02:55.953 -0700
+Total in 25 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:03:01.958 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 37 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:03:24.949 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Huffman Tree.PNG": RENAME
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\Huffmen_Tree.PNG": CREATE
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:03:31.948 -0700
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:03:36.953 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 40 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:03:37.947 -0700
+Total in 22 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:04:10.953 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:04:21.946 -0700
+Total in 24 ms
+
+Change detected, rebuilding site.
+2020-08-17 09:04:26.953 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-18 07:49:16.946 -0700
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-18 07:50:05.951 -0700
+Total in 78 ms
+
+Change of config file detected, rebuilding site.
+2020-08-18 07:51:53.951 -0700
+Rebuilt in 507 ms
+
+Change of config file detected, rebuilding site.
+2020-08-18 07:52:26.951 -0700
+Rebuilt in 517 ms
+
+Change of config file detected, rebuilding site.
+2020-08-18 07:52:49.948 -0700
+Rebuilt in 485 ms
+
+Change of config file detected, rebuilding site.
+2020-08-18 07:53:21.946 -0700
+Rebuilt in 473 ms
+
+Change of config file detected, rebuilding site.
+2020-08-18 07:53:56.951 -0700
+Rebuilt in 576 ms
+
+Change of config file detected, rebuilding site.
+2020-08-18 07:54:46.946 -0700
+Rebuilt in 532 ms
+
+Change detected, rebuilding site.
+2020-08-18 07:55:20.947 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientific_revolutions.md": WRITE
+Total in 38 ms
+adding created directory to watchlist C:\Users\wjbur\Documents\website\academic_website\content\books\structure_of_scientidic_revolutions
+
+Change detected, rebuilding site.
+2020-08-18 07:55:46.948 -0700
+Total in 45 ms
+adding created directory to watchlist C:\Users\wjbur\Documents\website\academic_website\content\books\structure_of_scientific_revolutions
+
+Change detected, rebuilding site.
+2020-08-18 07:56:07.959 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientidic_revolutions": RENAME
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-18 07:56:22.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientific_revolutions.md": REMOVE
+Total in 43 ms
+
+Change detected, rebuilding site.
+2020-08-18 07:56:32.953 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientidic_revolutions\\structure_of_scientific_revolutions.md": RENAME
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-18 07:56:35.947 -0700
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-18 07:56:45.951 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientidic_revolutions\\index.md": RENAME
+Total in 48 ms
+
+Change detected, rebuilding site.
+2020-08-18 07:56:47.950 -0700
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-18 07:57:04.953 -0700
+Total in 41 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:03:33.947 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientidic_revolutions\\structure.jpg": REMOVE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientidic_revolutions\\structure.jpg.crdownload": RENAME
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:05:45.949 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:06:38.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientidic_revolutions\\index.md": RENAME
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:06:41.951 -0700
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:06:48.948 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientidic_revolutions\\structure.jpg": RENAME
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:07:29.950 -0700
+Total in 41 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:07:40.947 -0700
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:07:49.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\books.md": WRITE
+Total in 50 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:07:54.953 -0700
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:08:22.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\books.md": WRITE
+Total in 48 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:08:51.955 -0700
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:09:42.947 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\books.md": WRITE
+Total in 43 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:10:02.950 -0700
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:10:10.951 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\books.md": WRITE
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:10:52.962 -0700
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:13:48.954 -0700
+Total in 37 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:13:57.952 -0700
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:13:58.949 -0700
+Total in 51 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:14:01.946 -0700
+Total in 44 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:14:09.947 -0700
+Total in 37 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:14:12.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\_index.md": REMOVE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:14:16.952 -0700
+Total in 40 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:18:46.951 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\index.md": WRITE
+Total in 47 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:19:01.947 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\index.md": RENAME
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\_index.md": CREATE
+Total in 53 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:19:20.952 -0700
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:19:26.951 -0700
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:19:35.950 -0700
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:19:44.952 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\_index.md": WRITE
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:19:53.949 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\_index.md": RENAME
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\inde": WRITE
+Total in 38 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:19:59.950 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\inde": RENAME
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\index.m": CREATE
+Total in 37 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:20:04.952 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\index.m": RENAME
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\index.md": CREATE
+Total in 74 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:20:38.953 -0700
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:20:48.959 -0700
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:21:05.953 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientidic_revolutions\\index.md": RENAME
+Total in 37 ms
+
+Change of config file detected, rebuilding site.
+2020-08-18 08:22:11.946 -0700
+Rebuilt in 515 ms
+
+Change of config file detected, rebuilding site.
+2020-08-18 08:23:02.951 -0700
+Rebuilt in 524 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:23:32.950 -0700
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:23:42.952 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\_index.md": WRITE
+Total in 39 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:23:47.950 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\_index.md": RENAME
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\index.md": WRITE
+Total in 40 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:24:04.949 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\index.md": RENAME
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\_index.md": CREATE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:24:09.947 -0700
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:24:20.952 -0700
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:24:30.952 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:24:51.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\_index.md": WRITE
+WARN 2020/08/18 08:24:51 Content directory "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books" have both index.* and _index.* files, pick one.
+Total in 67 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:25:28.949 -0700
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:25:30.952 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:25:55.950 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:25:56.946 -0700
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:25:59.950 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\_index.md": REMOVE
+Total in 48 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:26:33.946 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:26:35.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\_index.md": WRITE
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:26:36.950 -0700
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:26:56.947 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\index.md": REMOVE
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:27:13.946 -0700
+Total in 25 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:27:25.946 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\posts.md": WRITE
+Total in 41 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:27:41.946 -0700
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:27:42.951 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\_index.md": WRITE
+Total in 42 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:27:48.950 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\_index.md": RENAME
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\index.md": WRITE
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:27:57.948 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\index.md": RENAME
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\_inde": CREATE
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:28:15.958 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\_inde": RENAME
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\_index.md": CREATE
+Total in 26 ms
+      1 [sig] nohup 21608! sigpacket::process: Suppressing signal 18 to win32 process (pid 39668)
+1970780 [sig] nohup 21608! sigpacket::process: Suppressing signal 18 to win32 process (pid 39668)
+Building sites … 
+                   | EN  
+-------------------+-----
+  Pages            | 61  
+  Paginator pages  |  0  
+  Non-page files   |  9  
+  Static files     |  5  
+  Processed images | 17  
+  Aliases          | 13  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 422 ms
+Watching for changes in C:\Users\wjbur\Documents\website\academic_website\{assets,content,data,static,themes}
+Watching for config changes in C:\Users\wjbur\Documents\website\academic_website\config.toml, C:\Users\wjbur\Documents\website\academic_website\config\_default
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2020-08-18 08:29:26.850 -0700
+Total in 22 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:29:36.845 -0700
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:29:48.837 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientific_revolutions\\index.md": WRITE
+Total in 52 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:29:49.839 -0700
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:30:14.841 -0700
+Total in 22 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:32:05.837 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientific_revolutions\\index.md": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:33:39.849 -0700
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:33:58.839 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientific_revolutions\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:33:59.848 -0700
+Total in 24 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:35:50.837 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\books\\structure_of_scientific_revolutions\\index.md": WRITE
+Total in 37 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:36:02.840 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:36:05.838 -0700
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:37:20.838 -0700
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:37:21.840 -0700
+Total in 46 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:37:23.838 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-18 08:37:58.852 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\information_theory\\index.md": WRITE
+Total in 13 ms
+ERROR 2020/08/18 08:37:58 Rebuild failed:
+
+ERROR 2020/08/18 08:37:58 "C:\Users\wjbur\Documents\website\academic_website\content\post\information_theory\index.md:6:1": failed to unmarshal YAML: yaml: line 5: could not find expected ':'
+
+Change detected, rebuilding site.
+2020-08-18 08:38:03.843 -0700
+Total in 3 ms
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal 0xc0000005 code=0x0 addr=0x20 pc=0x10cc57d]
+
+goroutine 246 [running]:
+github.com/gohugoio/hugo/hugolib.(*BuildCfg).shouldRender(0xc00290c600, 0x0, 0x406700)
+	/root/project/hugo/hugolib/hugo_sites.go:675 +0x2d
+github.com/gohugoio/hugo/hugolib.(*Site).renderPages.func1(0xc000a641e0, 0x22, 0xc0019d5f20, 0xc00273e700)
+	/root/project/hugo/hugolib/site_render.go:80 +0x54
+github.com/gohugoio/hugo/hugolib.contentTrees.Walk.func1(0xc000a641e0, 0x22, 0x1ceebc0, 0xc0019d5f20, 0xc000a00000)
+	/root/project/hugo/hugolib/content_map.go:870 +0x5b
+github.com/armon/go-radix.recursiveWalk(0xc000a12990, 0xc000e33440, 0x1ceeb00)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:519 +0xf7
+github.com/armon/go-radix.recursiveWalk(0xc000a12960, 0xc000e33440, 0x1fb1700)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0x85
+github.com/armon/go-radix.recursiveWalk(0xc000a12090, 0xc000e33440, 0x0)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0x85
+github.com/armon/go-radix.recursiveWalk(0xc0000f2420, 0xc000e33440, 0xc000e33470)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:525 +0x85
+github.com/armon/go-radix.(*Tree).Walk(...)
+	/go/pkg/mod/github.com/armon/go-radix@v1.0.0/radix.go:447
+github.com/gohugoio/hugo/hugolib.contentTrees.Walk(0xc0000bee40, 0x3, 0x3, 0xc000e334d8)
+	/root/project/hugo/hugolib/content_map.go:868 +0x6e
+github.com/gohugoio/hugo/hugolib.(*Site).renderPages(0xc0002dc6c0, 0xc0027d07c0, 0x0, 0xc000e33400)
+	/root/project/hugo/hugolib/site_render.go:79 +0x1ff
+github.com/gohugoio/hugo/hugolib.(*Site).render(0xc0002dc6c0, 0xc0027d07c0, 0x0, 0x0)
+	/root/project/hugo/hugolib/site.go:1203 +0x5b
+github.com/gohugoio/hugo/hugolib.(*HugoSites).render(0xc0002d9ef0, 0xc00290c600, 0x3355110, 0x1)
+	/root/project/hugo/hugolib/hugo_sites_build.go:325 +0x413
+github.com/gohugoio/hugo/hugolib.(*HugoSites).Build.func4()
+	/root/project/hugo/hugolib/hugo_sites_build.go:149 +0x43
+runtime/trace.WithRegion(0x2591040, 0xc002745320, 0x1fc40b1, 0x6, 0xc000e33928)
+	/usr/local/go/src/runtime/trace/annotation.go:137 +0x105
+github.com/gohugoio/hugo/hugolib.(*HugoSites).Build(0xc0002d9ef0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x100, 0xc0027452f0, 0x0, 0xc00273e5a0, ...)
+	/root/project/hugo/hugolib/hugo_sites_build.go:151 +0x7bc
+github.com/gohugoio/hugo/commands.(*commandeer).rebuildSites(0xc000988820, 0xc00273e5a0, 0x3, 0x4, 0x0, 0x0)
+	/root/project/hugo/commands/hugo.go:774 +0x40e
+github.com/gohugoio/hugo/commands.(*commandeer).handleEvents(0xc000988820, 0xc00106c3a0, 0xc0011ff9a0, 0xc003dcd980, 0x8, 0x8, 0xc0014ec5d0)
+	/root/project/hugo/commands/hugo.go:1139 +0x76b
+github.com/gohugoio/hugo/commands.(*commandeer).newWatcher.func1(0xc00106c3a0, 0xc000988820, 0xc0011ff9a0, 0xc0014ec5d0)
+	/root/project/hugo/commands/hugo.go:881 +0x1df
+created by github.com/gohugoio/hugo/commands.(*commandeer).newWatcher
+	/root/project/hugo/commands/hugo.go:877 +0x294
+Building sites … 
+                   | EN  
+-------------------+-----
+  Pages            | 68  
+  Paginator pages  |  0  
+  Non-page files   | 18  
+  Static files     |  5  
+  Processed images | 23  
+  Aliases          | 16  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 595 ms
+Watching for changes in C:\Users\wjbur\Documents\website\academic_website\{assets,content,data,static,themes}
+Watching for config changes in C:\Users\wjbur\Documents\website\academic_website\config.toml, C:\Users\wjbur\Documents\website\academic_website\config\_default
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2020-08-23 10:37:31.028 -0700
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-23 10:37:34.027 -0700
+Total in 25 ms
+
+Change detected, rebuilding site.
+2020-08-23 10:37:36.028 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-23 10:37:40.026 -0700
+Total in 24 ms
+
+Change detected, rebuilding site.
+2020-08-23 10:46:40.027 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-23 10:47:03.027 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-23 10:47:49.027 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 42 ms
+
+Change detected, rebuilding site.
+2020-08-23 10:59:12.027 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:01:35.027 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:05:50.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\Clean Daily Temp.PNG": WRITE
+Total in 39 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:06:13.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\Clean Daily Temp.PNG": RENAME
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\clean_daily_temp.PNG": CREATE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:06:34.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:07:01.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:08:30.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 37 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:09:25.027 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:09:46.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:09:52.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:12:17.028 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:12:18.030 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 25 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:12:22.026 -0700
+Total in 24 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:12:59.028 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:14:42.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:19:06.027 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:19:23.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:19:32.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 49 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:19:38.027 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 44 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:19:39.026 -0700
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:19:49.026 -0700
+Total in 22 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:19:54.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:20:00.027 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 49 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:20:39.027 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:20:47.028 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:21:04.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 45 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:21:11.028 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:21:25.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:21:35.027 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 47 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:21:39.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:22:13.027 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:22:58.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 42 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:23:21.028 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:24:19.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:30:02.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:33:47.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:37:15.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 45 ms
+
+Change detected, rebuilding site.
+2020-08-23 11:37:35.026 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 35 ms
+Building sites … 
+                   | EN  
+-------------------+-----
+  Pages            | 68  
+  Paginator pages  |  0  
+  Non-page files   | 19  
+  Static files     |  5  
+  Processed images | 25  
+  Aliases          | 16  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 711 ms
+Watching for changes in C:\Users\wjbur\Documents\website\academic_website\{assets,content,data,static,themes}
+Watching for config changes in C:\Users\wjbur\Documents\website\academic_website\config.toml, C:\Users\wjbur\Documents\website\academic_website\config\_default
+Environment: "development"
+Serving pages from memory
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change detected, rebuilding site.
+2020-08-24 07:51:44.705 -0700
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-24 07:51:46.704 -0700
+Total in 22 ms
+
+Change detected, rebuilding site.
+2020-08-24 07:52:33.700 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-24 07:52:34.702 -0700
+Total in 25 ms
+
+Change detected, rebuilding site.
+2020-08-24 07:53:06.706 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-24 07:53:07.705 -0700
+Total in 24 ms
+
+Change detected, rebuilding site.
+2020-08-24 07:54:20.692 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-24 07:54:21.694 -0700
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:01:54.704 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:01:55.705 -0700
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:02:08.694 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:02:09.695 -0700
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:02:34.699 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:02:35.697 -0700
+Total in 38 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:02:46.698 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:02:47.702 -0700
+Total in 21 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:03:49.694 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:03:50.692 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:04:08.692 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:04:09.707 -0700
+Total in 24 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:05:02.696 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:05:03.699 -0700
+Total in 25 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:05:41.692 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:05:42.703 -0700
+Total in 25 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:06:14.700 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:06:15.698 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:11:05.693 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:11:06.706 -0700
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:13:29.700 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:13:30.706 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:14:03.695 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-24 08:14:04.700 -0700
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:41:24.705 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 62 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:41:25.704 -0700
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\data\\page_sharer.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp1.PNG": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\academic.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\assets.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp2.PNG": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\classic.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\plot_comparison.R": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\minimal.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\base_ggplot.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\mr_robot.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\native.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\rose.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\i18n\\languages.yaml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\clean_daily_temp.PNG": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\i18n\\rtl.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_bw.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\page_sharer.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_classic.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\publication_types.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\1950s.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_minimal.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\apogee.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_tufte.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\coffee.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\tufte_theme.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\dark.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\forest.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\minimal.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\mr_robot.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\ocean.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\rose.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\strawberry.toml": WRITE
+Total in 47 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:41:26.692 -0700
+Total in 45 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:41:39.693 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\nohup.out": WRITE
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:42:13.692 -0700
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:42:16.693 -0700
+Total in 25 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:42:33.696 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:42:36.703 -0700
+Total in 25 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:42:38.692 -0700
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:43:10.699 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 39 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:43:11.693 -0700
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:44:59.705 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 38 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:45:00.701 -0700
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:47:02.692 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:47:03.700 -0700
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:47:23.696 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 40 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:47:24.701 -0700
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:48:12.694 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:48:13.694 -0700
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:48:14.703 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-25 19:48:15.697 -0700
+Total in 25 ms
+
+Change detected, rebuilding site.
+2020-08-26 07:19:05.692 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-26 07:19:06.693 -0700
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\data\\page_sharer.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp1.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp2.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\nohup.out": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\plot_comparison.R": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\base_ggplot.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\academic.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\clean_daily_temp.PNG": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\assets.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_bw.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\classic.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_classic.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\minimal.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\mr_robot.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_minimal.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\native.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\rose.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_tufte.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\i18n\\languages.yaml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\tufte_theme.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\i18n\\rtl.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\page_sharer.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\publication_types.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\1950s.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\apogee.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\coffee.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\dark.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\forest.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\minimal.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\mr_robot.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\ocean.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\rose.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\strawberry.toml": WRITE
+Total in 50 ms
+
+Change detected, rebuilding site.
+2020-08-26 07:35:37.692 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 42 ms
+
+Change detected, rebuilding site.
+2020-08-26 07:35:38.692 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\base_ggplot.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\clean_daily_temp.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\nohup.out": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\plot_comparison.R": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp1.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp2.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_bw.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_classic.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_minimal.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_tufte.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\tufte_theme.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\data\\page_sharer.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\academic.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\assets.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\page_sharer.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\publication_types.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\classic.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\minimal.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\mr_robot.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\native.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\rose.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\i18n\\languages.yaml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\i18n\\rtl.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\1950s.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\apogee.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\coffee.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\dark.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\forest.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\minimal.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\mr_robot.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\ocean.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\rose.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\strawberry.toml": WRITE
+Total in 48 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:16:26.692 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:16:27.694 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:16:48.697 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:16:49.692 -0700
+Total in 26 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:16:59.694 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:17:00.698 -0700
+Total in 22 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:17:04.707 -0700
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:17:30.692 -0700
+Total in 24 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:17:31.692 -0700
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:17:54.698 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\bbc_plot1.png": WRITE
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:17:55.699 -0700
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:18:01.702 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 42 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:18:02.692 -0700
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:18:28.699 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:18:29.698 -0700
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:32:39.701 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 38 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:32:40.701 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp1.PNG": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\data\\page_sharer.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp2.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\nohup.out": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\plot_comparison.R": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\base_ggplot.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\clean_daily_temp.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_bw.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_classic.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_minimal.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_tufte.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\tufte_theme.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\academic.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\assets.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\classic.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\minimal.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\mr_robot.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\native.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\rose.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\i18n\\languages.yaml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\i18n\\rtl.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\page_sharer.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\publication_types.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\1950s.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\apogee.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\coffee.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\dark.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\forest.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\minimal.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\mr_robot.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\ocean.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\rose.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\strawberry.toml": WRITE
+Total in 51 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:34:32.695 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\base_ggplot.png": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:35:45.693 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:35:46.699 -0700
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:36:20.693 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:36:21.699 -0700
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:38:06.702 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:38:07.703 -0700
+Total in 24 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:39:23.704 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:39:24.693 -0700
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:40:07.693 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:40:08.699 -0700
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:40:53.695 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:40:54.694 -0700
+Total in 23 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:42:18.698 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:42:19.703 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:42:58.698 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 34 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:42:59.706 -0700
+Total in 25 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:47:06.704 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 43 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:47:54.702 -0700
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:47:58.701 -0700
+Total in 24 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:48:37.702 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:48:38.692 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:49:37.702 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:49:38.702 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:51:19.703 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 31 ms
+
+Change detected, rebuilding site.
+2020-08-26 08:51:20.705 -0700
+Total in 24 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:01:03.694 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 41 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:01:04.693 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp1.PNG": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\data\\page_sharer.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp2.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\nohup.out": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\plot_comparison.R": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\base_ggplot.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\bbc_plot1.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\clean_daily_temp.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_bw.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_classic.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\academic.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_minimal.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_tufte.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\assets.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\classic.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\tufte_theme.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\minimal.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\mr_robot.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\native.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\rose.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\i18n\\languages.yaml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\i18n\\rtl.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\page_sharer.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\publication_types.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\1950s.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\apogee.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\coffee.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\dark.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\forest.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\minimal.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\mr_robot.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\ocean.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\rose.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\strawberry.toml": WRITE
+Total in 55 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:05:22.695 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:05:23.695 -0700
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:40:03.694 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 62 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:40:04.693 -0700
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:42:23.694 -0700
+Rebuilt in 1564 ms
+
+Change of config file detected, rebuilding site.
+2020-08-28 07:42:27.263 -0700
+Rebuilt in 643 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:42:31.266 -0700
+Rebuilt in 493 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:43:39.695 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 70 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:43:40.696 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:44:00.692 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:44:01.696 -0700
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:45:29.694 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 45 ms
+
+Change detected, rebuilding site.
+2020-08-28 07:45:30.702 -0700
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:01:18.698 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 47 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:01:19.694 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp1.PNG": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\data\\page_sharer.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp2.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\nohup.out": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\plot_comparison.R": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\base_ggplot.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\bbc_plot1.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\clean_daily_temp.PNG": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_bw.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_classic.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_minimal.png": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\theme_tufte.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\academic.toml": WRITE
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\tufte_theme.png": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\assets.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\classic.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\minimal.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\mr_robot.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\native.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\fonts\\rose.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\i18n\\languages.yaml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\i18n\\rtl.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\page_sharer.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\publication_types.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\1950s.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\apogee.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\coffee.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\dark.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\forest.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\minimal.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\mr_robot.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\ocean.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\rose.toml": WRITE
+Data changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\themes\\academic\\data\\themes\\strawberry.toml": WRITE
+Total in 50 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:01:44.694 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 37 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:01:45.695 -0700
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:02:48.693 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp1.PNG": WRITE
+Total in 32 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:03:11.700 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\R_sheets_comp2.PNG": WRITE
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:04:04.696 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 43 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:04:05.701 -0700
+Total in 27 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:07:26.697 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:07:27.694 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:08:17.695 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:08:18.704 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:08:40.693 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 33 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:08:41.694 -0700
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:08:55.694 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:08:56.702 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:09:20.696 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 40 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:09:21.696 -0700
+Total in 36 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:09:46.695 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 39 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:09:47.703 -0700
+Total in 51 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:10:31.693 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:10:32.695 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\post\\professional_ggplot\\index.md": WRITE
+Total in 35 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:10:49.692 -0700
+Total in 28 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:11:31.692 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\_index.md": WRITE
+Total in 40 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:11:32.708 -0700
+Total in 30 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:11:34.695 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\authors\\admin\\_index.md": WRITE
+Total in 47 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:12:50.704 -0700
+Total in 29 ms
+
+Change detected, rebuilding site.
+2020-08-28 08:12:56.692 -0700
+Source changed "C:\\Users\\wjbur\\Documents\\website\\academic_website\\content\\home\\demo.md": WRITE
+Total in 45 ms
