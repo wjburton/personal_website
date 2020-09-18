@@ -1,5 +1,5 @@
 ---
-title: "Problem Solving Part 2"
+title: "Problem Solving: Part 2"
 date: 2020-06-27T13:18:13-07:00
 draft: False
 ---

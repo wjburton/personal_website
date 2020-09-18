@@ -6,7 +6,7 @@ subtitle: ""
 summary: "Base ggplot is great for analysis, but when it comes to presentations.. I don't feel comfortable putting it in front of a CEO" 
 authors: [Will Burton]
 tags: [R, ggplot2]
-categories: [data visualization]
+categories: [Data Visualization, R]
 date: 2020-08-19T07:31:46-07:00
 lastmod: 2020-08-19T07:31:46-07:00
 featured: false
