@@ -55,7 +55,7 @@ To start out I want to answer the sub-question. Are there any companies using gg
 * [fivethirtyeight.com](https://fivethirtyeight.com/) | According to a [fivethirtyeight employee](https://www.reddit.com/r/statistics/comments/2jon2b/anyone_knows_how_are_made_the_graphs_on/) they do use ggplot for some graphs -- but they touch them up in illustrator. There is a fivethirtyeight ggplot theme available in the ggthemes package.
 * The [BBC (British Broadcasting Corporation)](https://medium.com/bbc-visual-and-data-journalism/how-the-bbc-visual-and-data-journalism-team-works-with-graphics-in-r-ed0b35693535) | They created a package for their theme too called [bbplot](https://github.com/bbc/bbplot)!
 
-These were the only two companies I could find without putting a ton of effort into research.. but I'm looking for companies that regularly publish charts for the general public & verify they are using ggplot.. so there might not be many instances here to find. That being said.. BBC, a news company, is publishing their ggplot charts for millions to see! 
+These were two prominent examples I could find using ggplot publicly and I'm sure if I looked a little longer I could find more. That being said.. BBC, a news company, is publishing their ggplot charts for millions to see! 
 
 Using the bbplot package, I re-created the initial plot shown above. 
 
@@ -108,6 +108,9 @@ What about now?
 
 
 <span style="display:block;text-align:center">![](./R_sheets_comp2.PNG)</span>
+
+SPOILER ALERT! <br>
+In the top comparison it was the chart on the right, and in the bottom comparison it was the chart on the left. ggplot actually produced a smoother looking line than google sheets.
 
 ***
 
