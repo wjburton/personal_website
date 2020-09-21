@@ -85,7 +85,7 @@ Here are some of the highlights!
 
 ## Now to Reflect
 
-I had a couple revalations coming out of this time in my life. 
+I had a couple revelations coming out of this time in my life. 
 
 **1. Success truly comes from a combination of hard work and luck** <br>
 On the work front I had to spend hours and hours to get a model to respectable accuracy. And this was on top of a full time internship and an online class for NCSU. I worked my butt off -- exercising from 6am-7:30am, intern from 8am until 5pm, class from 5pm-7pm, model from 7pm to 10pm. Repeat. I maintained this schedule for about 2.5 months. It wasn't this militaristic the whole time, but this was a typical day.
