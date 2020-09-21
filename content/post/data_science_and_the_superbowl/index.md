@@ -30,6 +30,8 @@ projects: []
 
 Almost 5 years past, it's about time to reflect on my experience going to Super Bowl 50 and the NFL Play Prediction model... <br> <br>
 
+## The Story
+
 Over the summer of 2015 I built a series of logistic regression models to predict NFL plays (Pass or Run) and presented my work at the Joint Statistical Meetings in Seattle at the end of that summer. The JSM presentation was very casual (though I was incredibly nervous and wearing a suit two sizes too big) ~ five minutes of introducing my work to an audience of around 30, followed by a poster presentation where people could walk around and learn a little more about the project. The next day was where things started to get a little crazy. My project was being covered across tons of news sources that essentially none of which actually talked to me directly. On the way back home, I recall sitting against the wall in the Seattle airport reading through all these news sources and getting a massive pit in my stomach. This was basically my first big "data science" project. I figured I had probably made many mistakes throughout the analysis, maybe interpreted something incorrectly, felt like the model was aggressively average, and now it was blowing up in the media! Someone is going to get ahold of the work and try to poke as many holes in it as possible.
 
 Me at the airport: <br>
