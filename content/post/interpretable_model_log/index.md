@@ -31,7 +31,7 @@ projects: []
 
 Over the few years working in a data science role, one of the areas I've found the most success is in building explainable models. In this post particularly I'll be focusing on binary prediction models.
 
-**What is a model?**
+### What is a model?
 
 First off let's talk about models. 
 What is a model? by Miriam Webster's definition it is: "A usually miniature representation of something."  For what I'm talking about we can drop the "usually miniature" component. 
@@ -47,24 +47,42 @@ There are two examples I want to talk about here:
 
 This is the same thing we do with a "Data Science Model". We are typically building a mathematical or rule based representation (model) of some real life process/phenomena (Though the real life process is often far more complex than the examples which is why we use far more complicated models) so that we can start to answer questions about our process/phenomena. Because we want to create a representation of the real life process, you need to think of what components the model should include and what would make sense. To add onto the lemonade stand example, say we want to predict x, the number of cups sold. We have two variables at our disposal. The number of squirrels in a 100 meter radius, and the temperature outside. When exploring the data you find out that the number of squirrels was the strongest predictor and because of this you build the model only on the number of squirrels. What have you just done?? Do you think squirrel count provides an accurate representation of lemonade sales? While it was useful to predicting in the past it is important to understand how/why it fits into the model. This is a little crazy of an example, but I kid you not, one time I saw someone use client name as a variable for building a churn model.  NAME?? how can the name of someone (ex. bob vs sam) be predictive of churn? Before dropping all possible variables into XGboost clapping your hands together and saying done, you really need to take the time to understand what you are trying to model, and physically model it to the best of your ability. This takes time.
 
+### What is an interpretable model?
+An interpretable model in a data science context is a model in which you can really understand how it works why it is making certain predictions. To categorize commonly used models (again focusing on binary predictions): <br>
 
-**How to build an interpretable model**
-Steps:
-1. Understand the business context and typical drivers of the process. If you want to be able to explain your model you need to understand why certain components used are important.
+These are not exhaustive lists <br>
+**Interpretable**
+* Decision Tree
+* Logistic Regression
+* K-nearest neighbors
+
+**Not Interpretable** (commonly called black box)
+* Support vector machines
+* Neural networks
+* Random Forest
+* Gradient boosting (common form of this is Extreme gradient boosting)
+
+
+### When to build an interpretable model
+Basically you should work on an interpretable model any time you think it is important to be able to explain predictions, or which factors are most important and why. In most problems I've worked on it has been desired to have an interpretable model. Here's a few places it's been required in my experience:
+* Risk modeling - we needed to be able to tell the stakeholder specific pockets of high risk individuals defined by a few variable cuts. The model needed to be "easy enough to explain to my grandma on the last mile of a half marathon".
+* Pricing - when we price the partner we need to be able to explain why they are paying more for certain leads.
+* Fraud - we need to know why people are being rejected for something.
+
+So far, the only places I've seen black box models in production was when the modeling task was repeated across multiple products and relationships are constantly changing (i.e. a recommendation engine on a platform that constantly changes). It's a type of problem where you really couldn't have explainable models as it would be too expensive to manually build those every time. 
+
+
+
+
+
+
+**How to build an interpretable model** <br>
+Steps: <br>
+1. Understand the business context and typical drivers of the process. If you want to be able to explain your model you need to understand why certain components used are important. This should be completed in the beginning through conversations with subject matter experts.
 2. Understand your available data. Are there missing values? Are there any unexpected patterns? Do any of the trends not align with the expected definitions?
-
-For example, say you work for Lululemon and sell athletic apparel in an online marketplace. One of the processes you are highly interested in understanding is what types of products people want to buy. Once we have a model to predict product desirability can start asking questions like: If I remove tank tops, what is my revenue impact? or What items should I show Will Burton when he visits the site given I want to maximize revenue? or How many members visiting the site aren't likely to be interested in any of our products (this could be a potential product gap)? 
-
-The point of these two simplified examples is that when we are trying to solve a complex problem like the lululemon example
-
-
+3. Explore the data 
 
 Since I started at Credit Karma there have been two instances where a project has required a model as a deliverable. 
-
-1. A few months into working at Credit Karma, someone on our leadership team tasked me with building a risk model that was "easy enough to explain to my grandma on the last mile of a half marathon".
-2. We have been trying to understand our mortgage funnel and I was tasked with trying to predict which members who start a funnel have the highest efficiency (I'm being purposefully vague) 
-
-When you are thinking about building an explainable model you have to keep in mind that you are trying to build a MODEL of a real life process. In the same way that you can build a model car to represent the lamborghini you always wanted, or a model of 1x-10 
 
 Business example: 
 For building an interpretable model
