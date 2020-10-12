@@ -31,7 +31,7 @@ projects: []
 
 Over the few years working in a data science role, one of the areas I've found the most success is in building explainable models. In this post particularly I'll be focusing on binary prediction models.
 
-**The Model Building Mindset**
+**What is a model?**
 
 First off let's talk about models. 
 What is a model? by Miriam Webster's definition it is: "A usually miniature representation of something."  For what I'm talking about we can drop the "usually miniature" component. 
@@ -45,13 +45,10 @@ There are two examples I want to talk about here:
 
 2. A model to represent lemonade stand profit. If a lemonade stand has total costs of 10 dollars and makes 1 dollar per cup sold, then the mathematical model to represent profit is $$-10 + 1x = profit$$ In this example we are building a mathematical model to represent a real life process. Once we have this model we can start answering questions about that process/phenomena like how many cups do I need to sell to break even, or how many do I need to sell before I can buy an Xbox! 
 
-This is the same thing we do with a "Data Science Model". We are typically building a mathematical or rule based representation (model) of some real life process/phenomena (Though the real life process is often far more complex than the examples which is why we use far more complicated models) so that we can start to answer questions about our process/phenomena. Because we want to create a representation of the real life process, you need to think of what components the model should include and what would make sense. To add onto the lemonade stand example, say we want to predict x, the number of cups sold. We have two variables at our disposal. The number of squirrels in a 100 meter radius, and the temperature outside. When exploring the data you find out that the number of squirrels was the strongest predictor
+This is the same thing we do with a "Data Science Model". We are typically building a mathematical or rule based representation (model) of some real life process/phenomena (Though the real life process is often far more complex than the examples which is why we use far more complicated models) so that we can start to answer questions about our process/phenomena. Because we want to create a representation of the real life process, you need to think of what components the model should include and what would make sense. To add onto the lemonade stand example, say we want to predict x, the number of cups sold. We have two variables at our disposal. The number of squirrels in a 100 meter radius, and the temperature outside. When exploring the data you find out that the number of squirrels was the strongest predictor and because of this you build the model only on the number of squirrels. What have you just done?? Do you think squirrel count provides an accurate representation of lemonade sales? While it was useful to predicting in the past it is important to understand how/why it fits into the model. This is a little crazy of an example, but I kid you not, one time I saw someone use client name as a variable for building a churn model.  NAME?? how can the name of someone (ex. bob vs sam) be predictive of churn? Before dropping all possible variables into XGboost clapping your hands together and saying done, you really need to take the time to understand what you are trying to model, and physically model it to the best of your ability. This takes time.
 
 
-Say you are a marketing company and you are trying to determine which customers to market to for a new product. What factors are most important to predicting? Well it's likely people who made a recent purchase with us are more likely than people who purchased 10 years ago. It's also likely that people who shop with us 100 times a year are more likely than the users that shop 2 times a year. And lastly, some customers likely have more disposable income and therefore have more capacity to respond to an offer. What I'm describing is a classic Recency Frequency Monetary model, and these are the factors that make sense to the business.
-
-
-
+**How to build an interpretable model**
 Steps:
 1. Understand the business context and typical drivers of the process. If you want to be able to explain your model you need to understand why certain components used are important.
 2. Understand your available data. Are there missing values? Are there any unexpected patterns? Do any of the trends not align with the expected definitions?
