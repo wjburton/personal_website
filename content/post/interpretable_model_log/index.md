@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Interpretable Modeling"
+title: "Interpretable and Explainable Modeling"
 subtitle: ""
 summary: ""
 authors: []
@@ -29,7 +29,7 @@ image:
 projects: []
 ---
 
-Over the few years working in a data science role, one of the areas I've found the most success is in building explainable models. In this post particularly I'll be focusing on binary prediction models.
+Over the few years working in a data science role, one of the areas I've found the most success is in building interpretable and explainable models. Interpretable because I can explain how it arrives at a prediction, explainable because I can explain why certain variables were important. In this post particularly I'll be focusing on binary prediction models.
 
 ### What is a model?
 
@@ -45,12 +45,16 @@ There are two examples I want to talk about here:
 
 2. A model to represent lemonade stand profit. If a lemonade stand has total costs of 10 dollars and makes 1 dollar per cup sold, then the mathematical model to represent profit is $$-10 + 1x = profit$$ In this example we are building a mathematical model to represent a real life process. Once we have this model we can start answering questions about that process/phenomena like how many cups do I need to sell to break even, or how many do I need to sell before I can buy an Xbox! 
 
-This is the same thing we do with a "Data Science Model". We are typically building a mathematical or rule based representation (model) of some real life process/phenomena (Though the real life process is often far more complex than the examples which is why we use far more complicated models) so that we can start to answer questions about our process/phenomena. Because we want to create a representation of the real life process, you need to think of what components the model should include and what would make sense. To add onto the lemonade stand example, say we want to predict x, the number of cups sold. We have two variables at our disposal. The number of squirrels in a 100 meter radius, and the temperature outside. When exploring the data you find out that the number of squirrels was the strongest predictor and because of this you build the model only on the number of squirrels. What have you just done?? Do you think squirrel count provides an accurate representation of lemonade sales? While it was useful to predicting in the past it is important to understand how/why it fits into the model. This is a little crazy of an example, but I kid you not, one time I saw someone use client name as a variable for building a churn model.  NAME?? how can the name of someone (ex. bob vs sam) be predictive of churn? Before dropping all possible variables into XGboost clapping your hands together and saying done, you really need to take the time to understand what you are trying to model, and physically model it to the best of your ability. This takes time.
+This is the same thing we do with a "Data Science Model". We are typically building a mathematical or rule based representation (model) of some real life process/phenomena so that we can start to answer questions about our process/phenomena. Because we want to create a representation of the real life process, for an interpretable and explainable model you need to think of what components make sense to include in the model.
+
+To add onto the lemonade stand example, say we want to predict x, the number of cups sold. We have two variables at our disposal. The number of squirrels in a 100 meter radius, and the temperature outside. When exploring the data you find out that the number of squirrels was the strongest predictor and because of this you build the model only on the number of squirrels. What have you just done?? Do you think squirrel count provides an accurate representation of lemonade sales? While it was useful to predicting in the past it is important to understand how/why it fits into the model when building an interpretable and explainable model. 
+
+This was a little crazy of an example, but I kid you not, one time I saw someone use client name as a variable for building a churn model.  NAME?? how can the name of someone (ex. bob vs sam) be predictive of churn? Before dropping all possible variables into XGboost clapping your hands together and saying done, you really need to take the time to understand what you are trying to model, think about what variables would make sense to use, and physically model it to the best of your ability. This takes time.
 
 ### What is an interpretable model?
-An interpretable model in a data science context is a model in which you can really understand how it works why it is making certain predictions. To categorize commonly used models (again focusing on binary predictions): <br>
+An interpretable model in a data science context is a model that allows you to understand exactly how it arrives at its predictions. To categorize commonly used models (again focusing on binary predictions): <br>
 
-These are not exhaustive lists <br>
+*These are not exhaustive lists* <br>
 **Interpretable**
 * Decision Tree
 * Logistic Regression
@@ -62,21 +66,19 @@ These are not exhaustive lists <br>
 * Random Forest
 * Gradient boosting (common form of this is Extreme gradient boosting)
 
+**The explainable component** is built in using business knowledge. It is the difference between building a churn model based off nonsensical variables like client name vs variables that someone can easily rationalize from a business context.
 
-### When to build an interpretable model
-Basically you should work on an interpretable model any time you think it is important to be able to explain predictions, or which factors are most important and why. In most problems I've worked on it has been desired to have an interpretable model. Here's a few places it's been required in my experience:
-* Risk modeling - we needed to be able to tell the stakeholder specific pockets of high risk individuals defined by a few variable cuts. The model needed to be "easy enough to explain to my grandma on the last mile of a half marathon".
-* Pricing - when we price the partner we need to be able to explain why they are paying more for certain leads.
-* Fraud - we need to know why people are being rejected for something.
+### When to build an interpretable and explainable model?
+Basically you should built an interpretable model any time you think it is important to explain predictions or to understand which factors are most important and why. Most problems I've worked on have required an interpretable and explainable model. A couple examples include:
+* Risk modeling - We needed to be able to tell the stakeholder specific pockets of high risk individuals defined by a few variable cuts. The model needed to be "easy enough to explain to my grandma on the last mile of a half marathon" as described by the primary stakeholder.
+* Pricing - We needed to be able to explain to partners why we were charging more for some leads and less for others.
+* Fraud - We needed to know why some people would be rejected and others approved.
 
-So far, the only places I've seen black box models in production was when the modeling task was repeated across multiple products and relationships are constantly changing (i.e. a recommendation engine on a platform that constantly changes). It's a type of problem where you really couldn't have explainable models as it would be too expensive to manually build those every time. 
-
-
-
+So far, the only places I've seen black box models in production was in cases where the modeling task was repeated across multiple products and the variable associations with the response were constantly changing (i.e. a recommendation engine on a platform that constantly changes). It's a type of problem where you really couldn't have interpretable and explainable models as it would be too expensive to manually build those every time. 
 
 
-
-**How to build an interpretable model** <br>
+### How to build an interpretable model** <br>
+[In Progress]
 Steps: <br>
 1. Understand the business context and typical drivers of the process. If you want to be able to explain your model you need to understand why certain components used are important. This should be completed in the beginning through conversations with subject matter experts.
 2. Understand your available data. Are there missing values? Are there any unexpected patterns? Do any of the trends not align with the expected definitions?
