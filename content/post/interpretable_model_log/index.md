@@ -49,10 +49,10 @@ This is the same thing we do with a "Data Science Model". We are typically build
 
 To add onto the lemonade stand example, say we want to predict x, the number of cups sold. We have two variables at our disposal. The number of squirrels in a 100 meter radius, and the temperature outside. When exploring the data you find out that the number of squirrels was the strongest predictor and because of this you build the model only on the number of squirrels. What have you just done?? Do you think squirrel count provides an accurate representation of lemonade sales? While it was useful to predicting in the past it is important to understand how/why it fits into the model when building an interpretable and explainable model. 
 
-This was a little crazy of an example, but I kid you not, one time I saw someone use client name as a variable for building a churn model.  NAME?? how can the name of someone (ex. bob vs sam) be predictive of churn? Before dropping all possible variables into XGboost clapping your hands together and saying done, you really need to take the time to understand what you are trying to model, think about what variables would make sense to use, and physically model it to the best of your ability. This takes time.
+OK, the squirrel example is a little crazy, but I kid you not, one time I saw someone use client name as a variable for building a churn model.  NAME?? how can the name of someone (ex. bob vs sam) be predictive of churn? Before dropping all possible variables into XGboost clapping your hands together and saying done, you really need to take the time to understand what you are trying to model, think about what variables would make sense to use, and physically model it to the best of your ability. This takes time.
 
 ### What is an interpretable model?
-An interpretable model in a data science context is a model that allows you to understand exactly how it arrives at its predictions. To categorize commonly used models (again focusing on binary predictions): <br>
+An interpretable model in a data science context is a model that allows you to understand exactly how it arrives at its predictions (in a reasonable amount of time). To categorize commonly used models (again focusing on binary predictions): <br>
 
 *These are not exhaustive lists* <br>
 **Interpretable**
@@ -77,14 +77,31 @@ Basically you should built an interpretable model any time you think it is impor
 So far, the only places I've seen black box models in production was in cases where the modeling task was repeated across multiple products and the variable associations with the response were constantly changing (i.e. a recommendation engine on a platform that constantly changes). It's a type of problem where you really couldn't have interpretable and explainable models as it would be too expensive to manually build those every time. 
 
 
-### How to build an interpretable model** <br>
+### How to build an interpretable model <br>
 [In Progress]
 Steps: <br>
-1. Understand the business context and typical drivers of the process. If you want to be able to explain your model you need to understand why certain components used are important. This should be completed in the beginning through conversations with subject matter experts.
-2. Understand your available data. Are there missing values? Are there any unexpected patterns? Do any of the trends not align with the expected definitions?
-3. Explore the data 
+1. Understand the business context and typical drivers of the process. If you want to be able to explain your model you need to understand why certain variables used are important. This should be completed in the beginning through conversations with subject matter experts (SME's).
+2. Understand your available data. Working with SME's still, understand what variables would be useful and track down all the data sources.
+3. Explore the data.  
+    * Are there missing values?
+    * Are there any unexpected patterns?
+    * Do any of the trends not align with the expected definitions? Ex. we would never expect a variable above a certain value, yet we see those values.
+    * Are there any values that seem like indicators of missingness? Ex. In the workplace I have seen -9, -8, -6, -5, -1, 4, 99999, and 0, all refer to some type of missing value. Ignoring these can really deteriorate model performance.
+    * What are the variable distributions?  Are any highly skewed? Are there any outliers?
+    * Which variables are highly correlated? and which are likely telling you the same information? (Ex. VantageScore, FICO9, FICO4, these are all correlated and measure risk. You can probably just use one of these)
+    * What are the covariate's relationship with the response?
+ <br> <br>
+4. Build a list of variable modifications identified during exploration. Examples include:
+    * Income is highly skewed, I'll perform a log transform here.
+    * Industry codes A & B have the same % of the response, I can collapse these factor levels into a single level given it makes sense from a business context.
+    * Site visits has many 99999 values, I will need to impute the median value here and understand what 99999 actually means. <br> <br>
+	
+5. Build preliminary models. In this step you can do things 
 
-Since I started at Credit Karma there have been two instances where a project has required a model as a deliverable. 
+
+
+
+
 
 Business example: 
 For building an interpretable model
