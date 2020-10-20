@@ -1,12 +1,12 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Interpretable and Explainable Modeling"
+title: "Interpretable and Explainable Modeling, Part 1."
 subtitle: ""
-summary: ""
-authors: []
-tags: []
-categories: []
+summary: "What is interpretable and explainable modeling, and how do you do it?"
+authors: [Will Burton]
+tags: [Data Science, Modeling]
+categories: [Data Science, Modeling]
 date: 2020-10-11T07:23:31-07:00
 lastmod: 2020-10-11T07:23:31-07:00
 featured: false
@@ -29,7 +29,7 @@ image:
 projects: []
 ---
 
-Over the few years working in a data science role, one of the areas I've found the most success is in building interpretable and explainable models. Interpretable because I can explain how it arrives at a prediction, explainable because I can explain why certain variables were important. In this post particularly I'll be focusing on binary prediction models.
+Over the past few years working in a data science role, one of the areas I've found the most success is in building interpretable and explainable models. Interpretable because I can explain how it arrives at a prediction, explainable because I can explain why certain variables were important. In this post I'll be focusing on binary prediction models.
 
 ### What is a model?
 
@@ -45,6 +45,10 @@ There are two examples I want to talk about here:
 
 2. A model to represent lemonade stand profit. If a lemonade stand has total costs of 10 dollars and makes 1 dollar per cup sold, then the mathematical model to represent profit is $$-10 + 1x = profit$$ In this example we are building a mathematical model to represent a real life process. Once we have this model we can start answering questions about that process/phenomena like how many cups do I need to sell to break even, or how many do I need to sell before I can buy an Xbox! 
 
+<span style="display:block;text-align:center">
+<iframe src="https://giphy.com/embed/3o7aTvTXlhr9PuWg1i" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/dram-music-video-cash-machine-3o7aTvTXlhr9PuWg1i">via GIPHY</a></p>
+</span>
+
 This is the same thing we do with a "Data Science Model". We are typically building a mathematical or rule based representation (model) of some real life process/phenomena so that we can start to answer questions about our process/phenomena. Because we want to create a representation of the real life process, for an interpretable and explainable model you need to think of what components make sense to include in the model.
 
 To add onto the lemonade stand example, say we want to predict x, the number of cups sold. We have two variables at our disposal. The number of squirrels in a 100 meter radius, and the temperature outside. When exploring the data you find out that the number of squirrels was the strongest predictor and because of this you build the model only on the number of squirrels. What have you just done?? Do you think squirrel count provides an accurate representation of lemonade sales? While it was useful to predicting in the past it is important to understand how/why it fits into the model when building an interpretable and explainable model. 
@@ -58,13 +62,13 @@ An interpretable model in a data science context is a model that allows you to u
 **Interpretable**
 * Decision Tree
 * Logistic Regression
-* K-nearest neighbors
+* K-Nearest Neighbors
 
 **Not Interpretable** (commonly called black box)
-* Support vector machines
-* Neural networks
+* Support Vector Machines
+* Neural Networks
 * Random Forest
-* Gradient boosting (common form of this is Extreme gradient boosting)
+* Gradient Boosting (common form of this is extreme gradient boosting-xgboost for short)
 
 **The explainable component** is built in using business knowledge. It is the difference between building a churn model based off nonsensical variables like client name vs variables that someone can easily rationalize from a business context.
 
@@ -78,35 +82,48 @@ So far, the only places I've seen black box models in production was in cases wh
 
 
 ### How to build an interpretable model <br>
-[In Progress]
-Steps: <br>
-1. Understand the business context and typical drivers of the process. If you want to be able to explain your model you need to understand why certain variables used are important. This should be completed in the beginning through conversations with subject matter experts (SME's).
-2. Understand your available data. Working with SME's still, understand what variables would be useful and track down all the data sources.
-3. Explore the data.  
+**Steps** <br>
+1. **Understand the business context and typical drivers of the process.** If you want to be able to explain your model you need to understand why certain variables used are important. This should be completed in the beginning through conversations with subject matter experts (SME's).
+2. **Understand your available data.** Working with SME's still, understand what variables would be useful and track down all the data sources.
+3. **Explore the data.**
     * Are there missing values?
     * Are there any unexpected patterns?
     * Do any of the trends not align with the expected definitions? Ex. we would never expect a variable above a certain value, yet we see those values.
-    * Are there any values that seem like indicators of missingness? Ex. In the workplace I have seen -9, -8, -6, -5, -1, 4, 99999, and 0, all refer to some type of missing value. Ignoring these can really deteriorate model performance.
+    * Are there any values that seem like indicators of missingness? Ex. In the workplace I have seen -9, -8, -6, -5, -1, 4, 99999, and 0, all refer to some type of missing or special value. Ignoring these can really deteriorate model performance.
     * What are the variable distributions?  Are any highly skewed? Are there any outliers?
     * Which variables are highly correlated? and which are likely telling you the same information? (Ex. VantageScore, FICO9, FICO4, these are all correlated and measure risk. You can probably just use one of these)
     * What are the covariate's relationship with the response?
  <br> <br>
-4. Build a list of variable modifications identified during exploration. Examples include:
+4. **Build a list of variable modifications identified during exploration.** Examples include:
     * Income is highly skewed, I'll perform a log transform here.
     * Industry codes A & B have the same % of the response, I can collapse these factor levels into a single level given it makes sense from a business context.
     * Site visits has many 99999 values, I will need to impute the median value here and understand what 99999 actually means. <br> <br>
+5. **Clean data through learnings in the exploration phase.**
+    * This includes making the variable modifications that were identified like log scale and factor level collapsing
+    * Handle missing values, either impute or exclude columns that are highly missing. If you think there is a possibility they are not missing at random, then create a binary indicator variable flagged 1 for those missing values.
+    * If you noticed more complex relationships with the response you could make 2nd order or higher level terms. Ex. income, income^2, income^3, ...
+    * Truncate variables that are really thin after a certain range. Ex. If you see income >500K is very rare AND it doesn't seem to influence the response at that point, then you can truncate the data to 500K
+    * If you have a particularly large dataset, start to select individual variables out of the highly correlated variables. For example, if you have FICO4, FICO9, FICO8, Transunion VantageScore, Equifax VantageScore then you may just want to include only one of these in modeling. You can use business knowledge here to select a single one (say you know one is the industry standard), or you could run them through some type of variable importance and select the top one. Either way, since they are highly correlated you likely won't be missing out on much by selecting a single one and it will make the modeling process easier later on.
+      * If you have say 1000 variables, one of the tricks I've used is hierarchical clustering using correlation as the distance metric. This can create groups in an automated way and help you identify the variables that are largely correlated. <br> <br>
 	
-5. Build preliminary models. In this step you can do things 
+5. **Build preliminary models**
+    * Run a forwards, backwards, stepwise regression: what variables were kept? Were they consistent? What were the AUC's?
+    * Run data through an xgboost or random forest: what was the AUC? and what variables were most important based on variable importance.
+    * Start modeling without automated variable selection -- use business knowledge. Take the Occam's Razor approach: out of all competing solutions with comparable accuracy, the simplest one is usually the best.
+      * Here try out the variables you think should be the most useful based on the relationships you saw. Based on the first two most important variables, how much improvement do you get from the third variable? Is the improvement in accuracy worth the additional complexity? What about after adding the 4th variable, still worth the additional complexity? 
+    * Build a decision tree, are the same variables being used as were in regression? How does the decision tree AUC compare to Logistic regression? Is the decision tree easy to explain and justify? <br> <br>
 
+6. **Build the final model**
+    * Through the preliminary modeling exercises decide between which interpretable model you want to use. I typically lean on logistic regression, but if the data is better structured for a tree then go with that.
+    * At this point, you have a good idea of the accuracy range you can achieve with the data from the most complicated model in step 5 to the simplest. You also have an understanding of the accuracy improvement each additional variable adds. Build the simplest and easiest to explain model that meets all the business constraints and make sure the accuracy is somewhere within the acceptable range. <br> <br>
 
+7. **Can you answer yes to the following questions?**
+    * Does the model make sense and is it easy to explain? 
+    * Does it perform better than what you currently have?
+    * Do you have a decent idea of how it can go wrong?
+    * Will this data and its sources be stable over time?
+    * Does it meet all the business requirements?
+  
+**Then you're DONE!** All models are wrong, but some are useful - George Box. You can always improve model performance by tweaking a variable, searching for another data source, modifying the regularization, etc. etc. Once you have a model that solves the problem for the time being, then don't worry about the fact that if you just work a little harder maybe you can improve the accuracy. This can always be improved and if the business requirements change then you can always go back and make modifications.
 
-
-
-
-Business example: 
-For building an interpretable model
-Business Context:
-
-
-1. Build a quick and dirty complicated model
-Build the most accurate model possible
+Part 2. Will be a working example through the classic Titanic dataset.
