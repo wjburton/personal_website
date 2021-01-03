@@ -17,7 +17,7 @@ math: true
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "A model simple enough for a child to understand"
   focal_point: ""
   preview_only: false
 
@@ -29,7 +29,7 @@ image:
 projects: []
 ---
 
-Over the past few years working in a data science role, one of the areas I've found the most success is in building interpretable and explainable models. Interpretable because I can explain how it arrives at a prediction, explainable because I can explain why certain variables were important. In this post I'll be focusing on binary prediction models.
+Over the past few years working in a data science role, one of the areas I've found the most success in is building interpretable and explainable models. Interpretable because I can explain how it arrives at a prediction, explainable because I can clearly describe why certain variables were important. In this post I'll be focusing on models that predict a binary target.
 
 ### What is a model?
 
@@ -53,7 +53,7 @@ This is the same thing we do with a "Data Science Model". We are typically build
 
 To add onto the lemonade stand example, say we want to predict x, the number of cups sold. We have two variables at our disposal. The number of squirrels in a 100 meter radius, and the temperature outside. When exploring the data you find out that the number of squirrels was the strongest predictor and because of this you build the model only on the number of squirrels. What have you just done?? Do you think squirrel count provides an accurate representation of lemonade sales? While it was useful to predicting in the past it is important to understand how/why it fits into the model when building an interpretable and explainable model. 
 
-OK, the squirrel example is a little crazy, but I kid you not, one time I saw someone use client name as a variable for building a churn model.  NAME?? how can the name of someone (ex. bob vs sam) be predictive of churn? Before dropping all possible variables into XGboost clapping your hands together and saying done, take the time to understand what you are trying to model, think about what variables make sense to use, and physically model it to the best of your ability. This takes time.
+OK, the squirrel example is a little crazy, but one time I saw someone use client name as a variable for building a churn model.  NAME?? how can the name of someone (ex. bob vs sam) be predictive of churn? Before dropping all possible variables into XGboost clapping your hands together and saying done, take the time to understand what you are trying to model, think about what variables make sense to use, and physically model it to the best of your ability. This takes time.
 
 ### What is an interpretable model?
 An interpretable model in a data science context is a model that allows you to understand exactly how it arrives at its predictions (in a reasonable amount of time). To categorize commonly used models (again focusing on binary predictions): <br>
@@ -73,18 +73,19 @@ An interpretable model in a data science context is a model that allows you to u
 **The explainable component** is built in using business knowledge. It is the difference between building a churn model based off nonsensical variables like client name vs variables that someone can easily rationalize from a business context.
 
 ### When to build an interpretable and explainable model?
-Basically you should built an interpretable model any time you think it is important to explain predictions or to understand which factors are most important and why. Most problems I've worked on have required an interpretable and explainable model. A couple examples include:
+A interpretable model should be built any time it is important to explain predictions or to understand which factors are most important and why. Most problems I've worked on have required an interpretable and explainable model. A couple examples include:
 * Risk modeling - We needed to be able to tell the stakeholder specific pockets of high risk individuals defined by a few variable cuts. The model needed to be "easy enough to explain to my grandma on the last mile of a half marathon" as described by the primary stakeholder.
-* Pricing - We needed to be able to explain to partners why we were charging more for some leads and less for others.
+* Pricing - We needed to be able to explain to stakeholders why we were charging more for some leads and less for others.
 * Fraud - We needed to know why some people would be rejected and others approved.
 
 So far, the only places I've seen black box models in production was in cases where the modeling task was repeated across multiple products and the variable associations with the response were constantly changing (ex. a recommendation engine on a platform that constantly changes). It's a type of problem where you really couldn't have interpretable and explainable models as it would be too expensive to manually build those every time. 
 
 
-### How to build an interpretable model? <br>
+### How to build an interpretable and explainable model? <br>
 **Steps** <br>
 1. **Understand the business context and typical drivers of the process.** If you want to be able to explain your model you need to understand why certain variables used are important. This should be completed in the beginning through conversations with subject matter experts (SME's).
-2. **Understand your available data.** Working with SME's still, understand what variables would be useful and track down all the data sources.
+2. **Understand the
+available data.** Working with SME's still, understand what variables could be useful and track down all the data sources.
 3. **Explore the data.**
     * Are there missing values?
     * Are there any unexpected patterns?
@@ -93,14 +94,19 @@ So far, the only places I've seen black box models in production was in cases wh
     * What are the variable distributions?  Are any highly skewed? Are there any outliers?
     * Which variables are highly correlated? and which are likely telling you the same information? (Ex. VantageScore, FICO9, FICO4, these are all correlated and measure risk. You can probably just use one of these)
     * What are the covariate's relationship with the response?
-    * ... There are many additional exploration steps, the idea here is to feel like you have a strong grasp of the data so when you start modeling there aren't many surprises.
+    * ... There are many additional unlisted exploration exercises here, the idea here is to feel like you have a strong grasp of the data so when you start modeling there aren't many surprises.
  <br> <br>
 
 4. **Build a list of variable modifications identified during exploration.** Examples include:
     * Income is highly skewed, I'll perform a log transform here.
     * Industry codes A & B have the same % of the response, I can collapse these factor levels into a single level given it makes sense from a business context.
     * Site visits has many 99999 values, I will need to impute new values here and understand what 99999 actually means. <br> <br>
-5. **Clean data through learnings in the exploration phase.**
+   
+	These modifications are meant to either change an existing variable or make a new variable for the purpose to make it easier to model relationships. This step does require some background knowledge around what transformations improve the ability to model a relationship.
+
+<br>
+
+5. **Clean data through learnings in the exploration phase. (The result will be the final training and testing datasets)**
     * This includes making the variable modifications that were identified like log scaling and factor level collapsing.
     * Handle missing values, either impute or exclude columns that are highly missing. If you think there is a possibility they are not missing at random, then create a binary indicator variable flagged 1 for those missing values.
     * If you noticed more complex relationships with the response you could make 2nd order or higher level terms. Ex. income, income^2, income^3, ...
