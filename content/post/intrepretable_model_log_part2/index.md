@@ -485,7 +485,7 @@ xgb_mod <- xgb.train(
  
 <br>
 
-**7. Build the final model**
+**7. Build the final model (Section in Progress)**
 
 Step 8. as described previously doesn't apply in this case, so all that is left to do is present the model to stakeholders (Kaggle).
 
