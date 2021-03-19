@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Interpretable and Explainable Modeling, Part 1."
+title: "Interpretable and Explainable Modeling, Pt 1."
 subtitle: ""
 summary: "What is interpretable and explainable modeling, and how do you do it?"
 authors: [Will Burton]
@@ -36,7 +36,7 @@ Over the past few years working in a data science role, one of the areas I've fo
 First off let's talk about models. 
 What is a model? by Miriam Webster's definition it is: "A usually miniature representation of something."  For what I'm talking about we can drop the "usually miniature" component. 
 There are two examples I want to talk about here:
-1. A model car. A model car (or prototype) is a representation of a real car. For example, the Cyber Truck, the one Elon Musk showed off live, was a prototype of the real car. Tesla likely hasn't built a production line for this yet- they're likely still defining specs and components given production constraints. The purpose of these models are the same as a data science model - they are used to make predictions. Maybe for Cyber Truck its purpose is to predict how the public will react to this car if they started mass producing them. Or maybe it is used to understand performance of how the cars perform after driving 300K miles. OR what will happen when I throw a metal ball at the window!! Either way the purpose is to learn something about the actual car before we have the actual car. We are using them to make predictions about what will happen in the future so we want the model to be as close to the real thing as possible. 
+1. A model car. A model car (or prototype) is a representation of a real car. For example, the Cyber Truck, the one Elon Musk showed off live, was a prototype of the real car. Tesla likely hasn't built a production line for this yet- they're likely still defining specs and components given production constraints. The purpose of these models are the same as a data science model - they are used to make predictions. Maybe for Cyber Truck its purpose is to predict how the public will react to this car if they started mass producing them. Or maybe it is used to understand how the cars perform after driving 300K miles. OR what will happen when I throw a metal ball at the window!! Either way the purpose is to learn something about the actual car before we have the actual car. We are using them to make predictions about what will happen in the future so we want the model to be as close to the real thing as possible. 
 
 <span style="display:block;text-align:center">
 <iframe src="https://giphy.com/embed/gLREH1v1Z78tJckuii" width="480" height="272" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/truck-tesla-pickup-gLREH1v1Z78tJckuii">via GIPHY</a></p>
@@ -82,6 +82,8 @@ So far, the only places I've seen black box models in production was in cases wh
 
 
 ### How to build an interpretable and explainable model? <br>
+Before getting into the steps, it should be noted that most of what I've outlined below is general best practice for building any model, whether interpretable or not. Though in the real world there are many cases where the data is too large or the time constraints are too tight to actually proceed as thoroughly as I have laid out.
+
 **Steps** <br>
 1. **Understand the business context and typical drivers of the process.** If you want to be able to explain your model you need to understand why certain variables used are important. This should be completed in the beginning through conversations with subject matter experts (SME's).
 2. **Understand the
@@ -123,7 +125,7 @@ available data.** Working with SME's still, understand what variables could be u
     * Build a decision tree. Are the same variables being used now as were in regression? How does the decision tree AUC compare to Logistic regression? Is the decision tree easy to explain and justify? <br> <br>
 
 6. **Build the final model**
-    * Through the preliminary modeling exercises decide between which interpretable model you want to use. I typically lean on logistic regression, but if the data is better structured for a tree (and can still be easily explained) then go with that.
+    * Through the preliminary modeling exercises, decide between which interpretable model you want to use. I typically lean on logistic regression, but if the data is better structured for a tree (and can still be easily explained) then go with that.
     * At this point, you have a good idea of the accuracy range you can achieve with the data from the most complicated model in step 5. to the simplest. You also have an understanding of the accuracy improvement each additional variable adds. Build the simplest and easiest to explain model that meets all the business constraints and make sure the accuracy is somewhere within the acceptable range. 
     <br> <br>
 
