@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Interpretable and Explainable Modeling, Part 2."
+title: "Interpretable and Explainable Modeling, Pt 2."
 subtitle: "A Step by Step Example"
 summary: "Building an interpretable and explainable model on the Titanic dataset, while obtaining a top tier kaggle score."
 authors: []
@@ -49,7 +49,7 @@ Kaggle also provides a data dictionary here! Such a nice convenience that can be
 * **survival** - Survival	0 = No, 1 = Yes
 * **pclass** - Ticket class	1 = 1st, 2 = 2nd, 3 = 3rd
 * **sex** - Sex	
-* **Age** -	Age in years	
+* **age** -	Age in years	
 * **sibsp** - # of siblings / spouses aboard the Titanic	
 * **parch** - # of parents / children aboard the Titanic	
 * **ticket** - Ticket number	
@@ -71,7 +71,7 @@ I have a couple of initial thoughts around the available data:
   * **cabin** - Certain cabins may have had a harder time reaching the life boats due to location on the Titanic. 
   * **sibsp**, **parch** - Can't think of great reasons why large families vs small families would have a better chance of survival.
 
- The general story that makes sense, before looking at the data, is that there are three primary components that impact survivability: Gender, Income, and Age. At this point I'm trying to piece together a model in my head and construct a story that can be easily explained to stakeholders. 
+ The general story that makes sense, before looking at the data, is that there are three primary components that impact survivability: Gender, Income, and Age. At this point I'm trying to piece together a model in my head and construct a story that can be easily explained to stakeholders (though of course, the data has to tell the same story). 
 
 <br>
 
@@ -276,7 +276,7 @@ plot_continuous(log(df$fare_mod), n = 50, response = df$Survived, max_poly_degre
 
 *SibSp vs Survived* <br>
 
-While the Chi-Squared test shows there is a significant difference in survival among these levels, there is not a consistent trend (With one additional sibling or spouse we don't see a consistent increase or decrease in survivability) or an obvious reason as to why this is an important variable. 
+While the Chi-Squared test shows there is a significant difference in survivability among these levels, there is not a consistent trend (With one additional sibling or spouse we don't see a consistent increase or decrease in survivability) or an obvious reason as to why this is an important variable. 
 <pre class="r"><code>sibsp_tbl &lt;- table(df$Survived, df$SibSp)
 chisq.test(sibsp_tbl)</code></pre>
 <pre><code>##  Pearson's Chi-squared test
@@ -290,7 +290,7 @@ chisq.test(sibsp_tbl)</code></pre>
 
 *Parch vs Survived* <br>
 
-Similarly to SibSp, the Chi-Squared test shows there is a significant difference in survival among these levels, but there is no clear trend or obvious reason as to why this could be happening.
+Similarly to SibSp, the Chi-Squared test shows there is a significant difference in survivability these levels, but there is no clear trend or obvious reason as to why this could be happening.
 <pre class="r"><code>parch_tbl &lt;- table(df$Survived, df$Parch)
 chisq.test(parch_tbl)</code></pre>
 <pre><code>##  Pearson's Chi-squared test
@@ -304,7 +304,7 @@ chisq.test(parch_tbl)</code></pre>
 
 *Embarked vs Survived* <br>
 
-<p>While the Chi-Squared test shows there is a significant difference in survival among these levels they don't seem to be very important, and would also require more investigation to be able to explain why one location changes the survival likelihood. </p>
+<p>While the Chi-Squared test shows there is a significant difference in survivability among these levels they don't seem to be very important, and would also require more investigation to be able to explain why one location changes the survival likelihood. </p>
 <pre class="r"><code>embarked_tbl &lt;- table(df$Survived, df$Embarked)
 chisq.test(embarked_tbl)</code></pre>
 <pre><code>## Pearson's Chi-squared test
@@ -369,9 +369,9 @@ At this point if I can build a model around Age, Sex, and Wealth, the model shou
 <br>
 
 **4. Build a list of variable modifications identified during exploration.** 
-* Impute $7 for $0 amounts and then Log scale. A log scale is important to properly model the relationship. The $7 imputation is a quick an dirty method to not allow outlier values to add bias to a model fit.
+* Impute $7 for $0 amounts and then log scale. A log scale is important to properly model the relationship. The $7 imputation is a quick and dirty method to not allow outlier values to add bias to a model fit.
 * Exctract title from name and create binary flags for 1. prestigious male titles, 2. married women, 3. single women
-* Impute mean Age for missing Age values
+* Impute mean age for missing age values
 
 This list is typically much longer, but this data was relatively clean and had a limited number of columns.
 
@@ -379,124 +379,128 @@ This list is typically much longer, but this data was relatively clean and had a
 
 **5. Clean data through learnings in the exploration phase. (The result will be the final training and testing datasets)**
 
-<pre class="r"><code># dr is classified as male here as 1906 had# baseline will be a normal male in 2nd class
-train_df &lt;- df %&gt;% 
-  mutate(title  = stringr::str_extract(Name,&quot;[A-Za-z]+\\.&quot;),
+
+<details><summary> Cleaning Code </summary>
+<pre class="r"><code># dr is classified as male here as 1906 had a very low % of female medical practicioners
+# baseline will be a normal male in 2nd class
+
+train_df <- df %>% 
+  mutate(title  = stringr::str_extract(Name,"[A-Za-z]+\\."),
          fare_mod = log(ifelse(Fare == 0, 7, Fare)),
          Survived = factor(Survived),
-         age_mod = ifelse(is.na(Age),mean(df$Age, na.rm = TRUE),           female_married = ifelse(female_single == 0 &amp; Sex == 'female',1,0),
+         age_mod = ifelse(is.na(Age),mean(df$Age, na.rm = TRUE), Age),
+         male_special = ifelse(tolower(title) %in% c('col.','dr.','master.', 'major.', 'sir.') & Sex == 'male', 1,0),
+         female_single = ifelse(tolower(title) %in% c('miss.', 'mlle.', 'mme.') & Sex == 'female',1,0),
+         female_married = ifelse(female_single == 0 & Sex == 'female',1,0),
          first_class = ifelse(Pclass == 1, 1, 0),
-         third_class = ifelse(Pclass == 3, 1, 0)) </code></pre>
-<p>Testing a couple of model options</p>
-<pre class="r"><code>mod_fare &lt;- glm(Survived~fare_mod + first_class + third_class + male_spe           data = train_df,
-           family = 'binomial')
+         third_class = ifelse(Pclass == 3, 1, 0),
+         Embarked = ifelse(is.na(Embarked),"S",Embarked), #Replacing missing embarked with most common location
+         Embarked = factor(Embarked),
+         Sex = factor(Sex),
+         title = factor(title)) %>% 
+  select(-one_of('Pclass', 'PassengerId', 'Name', 'Ticket', 'Cabin', 'cabin_level', "Age"))
 
-mod_no_fare &lt;- glm(Survived~ first_class + third_class + male_special + female_single + female_married + age_mod, 
-           data = train_df,
-           family = 'binomial')</code></pre>
-<p>At a high level, the model looks pretty good so far. I may wa<pre class="r"><code>summary(mod_fare)</code></pre>
-<pre><code>## 
-## Call:
-## glm(formula = Survived ~ fare_mod + first_class + third_class + 
-##     male_special + female_single + female_married + age_mod, 
-##     family = &quot;binomial&quot;, data = train_df)
-## 
-## Deviance Residuals: 
-##     Min       1Q   Median       3Q      Max  
-## -2.4199  -0.6200  -0.3842   0.5818   2.5169  
-## 
-## Coefficients:
-##                 Estimate Std. Error z value Pr(&gt;|z|)    
-## (Intercept)     0.057356   0.544728   0.105 0.916143    
-## fare_mod       -0.264081   0.150355  -1.756 0.079023 .  
-## first_class     1.471140   0.332662   4.422 9.76e-06 ***
-## third_class    -1.251446   0.244278  -5.123 3.01e-07 ***
-## male_special    1.838673   0.366809   5.013 5.37e-07 ***
-## female_single   2.724527   0.234758  11.606  &lt; 2e-16 ***
-## female_married  3.316174   0.289746  11.445  &lt; 2e-16 ***
-## age_mod        -0.027031   0.008214  -3.291 0.000999 ***
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
-## (Dispersion parameter for binomial family taken to be 1)
-## 
-##     Null deviance: 1186.66  on 890  degrees of freedom
-## Residual deviance:  774.04  on 883  degrees of freedom
-## AIC: 790.04
-## 
-## Number of Fisher Scoring iterations: 5</code></pre>
-<pre class="r"><code>summary(mod_no_fare)</code></pre>
-<pre><code>## 
-## Call:
-## glm(formula = Survived ~ first_class + third_class + male_special + 
-##     female_single + female_married + age_mod, family = &quot;binomial&quot;, 
-##     data = train_df)
-## 
-## Deviance Residuals: 
-##     Min       1Q   Median       3Q      Max  
-## -2.4815  -0.6470  -0.3803   0.5909   2.4571  
-## 
-## Coefficients:
-##                 Estimate Std. Error z value Pr(&gt;|z|)    
-## (Intercept)    -0.716318   0.323568  -2.214  0.02684 *  
-## first_class     1.136089   0.269495   4.216 2.49e-05 ***
-## third_class    -1.140522   0.234173  -4.870 1.11e-06 ***
-## male_special    1.694949   0.352369   4.810 1.51e-06 ***
-## female_single   2.661523   0.231850  11.479  &lt; 2e-16 ***
-## female_married  3.171657   0.274677  11.547  &lt; 2e-16 ***
-## age_mod        -0.024704   0.008057  -3.066  0.00217 ** 
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
-## (Dispersion parameter for binomial family taken to be 1)
-## 
-##     Null deviance: 1186.66  on 890  degrees of freedom
-## Residual deviance:  777.19  on 884  degrees of freedom
-## AIC: 791.19
-## 
-## Number of Fisher Scoring iterations: 5</code></pre>
-<pre class="r"><code>fare_probs &lt;- predict(mod_fare, train_df, type = 'response')
-no_fare_probs &lt;- predict(mod_no_fare, train_df, type = 'response')</code></pre>
-<p>Test Performance</p>
-<pre class="r"><code>#Calculate Ensemble ROC curve
-logistic_roc_fare &lt;- calculate_ROC(probs = fare_probs, response = train_df$Survived, name =  'Fare')</code></pre>
-<pre><code>## Setting levels: control = 0, case = 1</code></pre>
-<pre><code>## Setting direction: controls &lt; cases</code></pre>
-<pre class="r"><code>logistic_roc_no_fare &lt;- calculate_ROC(probs = no_fare_probs, response = train_df$Survived, name =  'No Fare')</code></pre>
-<pre><code>## Setting levels: control = 0, case = 1
-## Setting direction: controls &lt; cases</code></pre>
-<pre class="r"><code>rocs &lt;- rbind(logistic_roc_fare, logistic_roc_no_fare)</code></pre>
-<pre class="r"><code>ggplot(rocs, aes(x = M1SPEC, y = SENSIT)) + geom_line(aes(color = name), lwd = 1.3, alpha= 0.5) + 
-  geom_abline(slope = 1, intercept = 0) + xlim(0,1) + ylim(0,1) + ggtitle('logistic  ROC Curve') + 
-  theme(plot.title = element_text(hjust = 0.5))</code></pre>
-<p><img src="">
-t<###<(<<<<###   PassengerId = col_double(),
-##   Pclass = col_double(),
-##   Name = col_character(),
-##   Sex = col_character(),
-##   Age = col_double(),
-##   SibSp = col_double(),
-##   Parch = col_double(),
-##   Ticket = col_character(),
-##   Fare = col_double(),
-##   Cabin = col_character(),
-##   Embarked = col_character()
-## )</code></pre>
-<pre class="r"><code>test_df_clean &lt;- test_df %&gt;% 
-  mutate(title  = stringr::str_extract(Name,&quot;[A-Za-z]+\\.&quot;),
+
+test_df <- read_csv('test.csv')
+
+test_df_clean <- test_df %>% 
+  mutate(title  = stringr::str_extract(Name,"[A-Za-z]+\\."),
          fare_mod = log(ifelse(Fare == 0, 7, Fare)),
          age_mod = ifelse(is.na(Age),mean(df$Age, na.rm = TRUE), Age),
-         male_special = ifelse(tolower(title) %in% c('col.','dr.','master.', 'major.', 'sir.') &amp; Sex == 'male', 1,0),
-         female_single = ifelse(tolower(title) %in% c('miss.','ms.', 'mlle.', 'mme.') &amp; Sex == 'female',1,0),
-         female_married = ifelse(female_single == 0 &amp; Sex == 'female',1,0),
+         male_special = ifelse(tolower(title) %in% c('col.','dr.','master.', 'major.', 'sir.') & Sex == 'male', 1,0),
+         female_single = ifelse(tolower(title) %in% c('miss.', 'mlle.', 'mme.') & Sex == 'female',1,0),
+         female_married = ifelse(female_single == 0 & Sex == 'female',1,0),
          first_class = ifelse(Pclass == 1, 1, 0),
-         third_class = ifelse(Pclass == 3, 1, 0))
+         third_class = ifelse(Pclass == 3, 1, 0),
+         Embarked = ifelse(is.na(Embarked),"S",Embarked), #Replacing missing embarked with most common location
+         Embarked = factor(Embarked),
+         Sex = factor(Sex),
+         title = factor(title)) %>% 
+  select(-one_of('Pclass', 'PassengerId', 'Name', 'Ticket', 'Cabin', "Age"))
+
+</code></pre>
+
+
+</details>
+
+<br>
+
+**6. Build preliminary models** <br>
+In this step I'm building a variety of models to get an understanding of the range of performance across model types. I'm also determing which set of variables should be used and which to cut out.
+
+<details><summary> Preliminary Modeling </summary>
+
+Build forwards, backwards, and stepwise logistic regression models
+
+<pre class="r"><code>#define full logistic model
+full_logistic_mod <- glm(Survived ~ ., data = train_df %>% select(-one_of("Sex", "title")), family = binomial)
+
+#define empty model
+nothing <- glm(Survived ~ 1,data =  train_df %>% select(-one_of("Sex", "title")), family = binomial)
+
+#preform backwards, forwards, and stepwise selection, while optimizing AIC
+backwards <-stats::step(full_logistic_mod, trace = 0) # Backwards selection is the default
+forwards <- stats::step(nothing,
+                 scope=list(lower=formula(nothing),upper=formula(full_logistic_mod)), direction="forward", trace = 0)
+stepwise <- stats::step(nothing, list(lower=formula(nothing),upper=formula(full_logistic_mod)),
+                 direction="both",trace=0)
+	
+</code></pre>
+The automated regression models ended up all the same and each only dropped one variable, embarked. It's a little odd to me that even after accounting for age, wealth, and gender, that sibling and parent counts were still considered important. Though, from past experience, these automated techniques are generally more inclusive than I'd want to be. To be clear, at this point I'm not fully ignoring those variables. If the data says they are important then I can't just ignore them.
+
+Now I'll create more flexible and complex models using XGboost and Random Forest. I'm not doing any tuning here, just using defaults. The solution I deliver will not be with these model types, but it is good to know what the performance range can be. They can tell me if a simple model obviously doesn't capture the patterns in the data. For example, if AUC with logistic regression is 0.65 and XGboost is 0.85 then clearly logistic regression is missing out on an important pattern.
+
+<pre class="r"><code>library(xgboost)
+#XGboost model
+response <- train_df$Survived %>% as.character() %>% as.numeric
+train_mat <- model.matrix(~.+0,data = train_df %>% select(-Survived), with = F)
+
+#Preparing Matrix
+dtrain <- xgb.DMatrix(data = train_mat,label = response)
+
+#Want to use cross validation to measure performance since XGboost can be prone to overfitting
+xgbcv <- xgb.cv(data = dtrain
+                ,nrounds = 100
+                ,nfold = 5
+                ,showsd = T
+                ,stratified = T
+                ,print_every_n = 5
+                ,early_stop_round = 20
+                ,eval_metric = "auc"
+                ,booster = "gbtree"
+                ,objective = "binary:logistic"
+)
+
+#At 21 rounds XGboost had a test AUC of 0.874
+xgb_mod <- xgb.train(
+          ,data = dtrain
+          ,nrounds = 21
+          ,print_every_n = 10
+          ,eval_metric = "auc"
+)
+
+</code></pre>
+
+</details>
+ 
+<br>
+
+**7. Build the final model**
+
+Step 8. as described previously doesn't apply in this case, so all that is left to do is present the model to stakeholders (Kaggle).
+
+
+The submission puts the model at an accuracy score of 78.46%, close to the 80.1% I saw in the training set. This score lands the interpretable and explainable model in the top 12.5% of all submissions. In explaining the model I can
+
+
+
+
+
 
 submission_df &lt;- data.frame(PassengerId = test_df_clean$PassengerId, 
                             Survived = ifelse(predict(mod_no_fare, test_df_clean, type = 'response') &gt;= 0.5,1,0))
 
 write.csv(submission_df, 'submission_file.csv', row.names = F)</code></pre>
-<p>This submission puts the model at an accuracy score of 78.46%, close to the 80.1% I saw in the training set! In Addition, this model only took two hours to build from exploration to final result. With this submission, we ranked 2,195 out of 16,886 - Landing this result in the top 12.5% of submissions.</p>
 <p>At this point I have likely gotten most of the value without putting in a ton of additional effort to squeak out a few more percentage points.</p>
 </div>
 
